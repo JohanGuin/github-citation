@@ -1,0 +1,44 @@
+:root{
+
+}
+
+*{
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("assets/Oswald-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src:url("assets/Roboto-Regular.ttf");
+};
+
+body{
+  font-family: "Oswald", sans-serif;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.conteneur-options{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.conteneur-options button{
+  margin: 5px;
+  padding: 10px;
+}
