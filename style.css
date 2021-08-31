@@ -1,9 +1,11 @@
+/* Variables sur les couleurs */
 :root{
   --color1: #1d3c45;
   --color2: #d2601a;
   --color3: #fff1e1;
 }
 
+/* Valeurs par défaut */
 *{
   font-size: 1em;
   margin: 0;
@@ -35,12 +37,33 @@ h1{
   font-size: 2.5em;
   line-height: 100px;
   text-align: center;
+  text-shadow: 3px 3px 5px var(--color3);
+  animation: animTitre 5s ease-in-out 0s forwards;
+  color: transparent;
+  letter-spacing: -15px;
+}
+
+@keyframes animTitre{
+  to{
+    text-shadow: 3px 3px 5px var(--color1);
+    color: var(--color2);
+    letter-spacing: 3px;
+  }
+}
+
+#explication{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
   color: var(--color2);
 }
 
 .conteneur-options{
+  width: 90%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
 }
 
 button{
@@ -49,19 +72,12 @@ button{
   border: 1px solid var(--color3);
   transition: 0.2s linear 0s;
   font-size: 1.4rem;
-  transform: translateX(-1000px);
-  animation: afficheButton 4s ease-in-out 0s 1 forwards;
+  border-radius: 10px;
 }
 
-@keyframes afficheButton{
-  to{
-    transform: translateX(0px);
-  }
-}
 
 button:hover{
   filter: brightness(140%);
-
 }
 
 main{
@@ -74,18 +90,33 @@ main{
   width: 80%;
   height: 300px;
   margin: 50px auto;
+  perspective: 100px;
 }
 
 #conteneur-citation>blockquote{
   font-size: 1.25rem;
-  opacity: 0;
-  animation: afficheCitation 5s linear 0s forwards;
+  animation: afficheCitation 3.5s linear 0s forwards;
   text-align: center;
+  opacity: 0;
 }
 
+#auteur{
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 10px 0 0 60%;
+  animation: afficheCitation 3.5s linear 0s forwards;
+}
 
 @keyframes afficheCitation{
+  from{
+    transform: translateZ(25px);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.33;
+  }
   to{
+    transform: translateZ(0px);
     opacity: 1;
   }
 }

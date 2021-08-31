@@ -22,7 +22,7 @@ const citations = [
   {
     texte: "Ce qui faît la vrai valeur d'un être humain, c'est de s'être délivré de son petit moi.",
     auteur: "Albert Einstein",
-    categorie: [""],
+    categorie: ["sagesse"],
     image: [],
   },
   {
