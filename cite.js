@@ -38,7 +38,7 @@ const citations = [
     image: [],
   },
   {
-    texte: "Rare est le nombre de ceux qui regardent avec leurs propres yeux et qui éprouvent avec leur propre sensibilité",
+    texte: "Rare est le nombre de ceux qui regardent avec leurs propres yeux et qui éprouvent avec leur propre sensibilité.",
     auteur: "Albert Einstein",
     categorie: ["sensibilité"],
     image: [],

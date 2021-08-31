@@ -1,5 +1,7 @@
 :root{
-
+  --color1: #1d3c45;
+  --color2: #d2601a;
+  --color3: #fff1e1;
 }
 
 *{
@@ -7,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--color1);
 }
 
 @font-face {
@@ -20,25 +23,69 @@
 };
 
 body{
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  background-color: var(--color3);
 }
 
 h1{
-  font-family: "Roboto", sans-serif;
-  font-size: 2em;
-}
-
-main{
-  width: 100%;
-  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  line-height: 100px;
+  text-align: center;
+  color: var(--color2);
 }
 
 .conteneur-options{
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.conteneur-options button{
-  margin: 5px;
-  padding: 10px;
+button{
+  background-color: var(--color2);
+  color: var(--color1);
+  border: 1px solid var(--color3);
+  transition: 0.2s linear 0s;
+  font-size: 1.4rem;
+  transform: translateX(-1000px);
+  animation: afficheButton 4s ease-in-out 0s 1 forwards;
+}
+
+@keyframes afficheButton{
+  to{
+    transform: translateX(0px);
+  }
+}
+
+button:hover{
+  filter: brightness(140%);
+
+}
+
+main{
+  background-color: var(--color3);
+}
+
+#conteneur-citation{
+  font-family: "Oswald", sans-serif;
+  background-color: var(--color3);
+  width: 80%;
+  height: 300px;
+  margin: 50px auto;
+}
+
+#conteneur-citation>blockquote{
+  font-size: 1.25rem;
+  opacity: 0;
+  animation: afficheCitation 5s linear 0s forwards;
+  text-align: center;
+}
+
+
+@keyframes afficheCitation{
+  to{
+    opacity: 1;
+  }
 }
