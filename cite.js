@@ -40,13 +40,13 @@ const citations = [
   {
     texte: "Rare est le nombre de ceux qui regardent avec leurs propres yeux et qui éprouvent avec leur propre sensibilité.",
     auteur: "Albert Einstein",
-    categorie: ["sensibilité"],
+    categorie: ["sensibilite"],
     image: [],
   },
   {
     texte: "Tout ce que est vraiment grand et inspiré a été réalisé par des individus travaillant librement.",
     auteur: "Albert Einstein",
-    categorie: ["liberté"],
+    categorie: ["liberte"],
     image: [],
   },
 ];

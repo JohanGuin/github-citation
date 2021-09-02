@@ -51,6 +51,10 @@ h1{
   }
 }
 
+main{
+  background-color: var(--color3);
+}
+
 #explication{
   text-align: center;
   font-size: 1.2rem;
@@ -75,13 +79,13 @@ button{
   border-radius: 10px;
 }
 
-
 button:hover{
   filter: brightness(140%);
 }
 
-main{
-  background-color: var(--color3);
+.button-true{
+  background-color: var(--color1);
+  color: var(--color2);
 }
 
 #conteneur-citation{
