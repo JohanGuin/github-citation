@@ -77,15 +77,26 @@ button{
   transition: 0.2s linear 0s;
   font-size: 1.4rem;
   border-radius: 10px;
+  box-shadow: 0 0 5px var(--color1);
 }
 
 button:hover{
-  filter: brightness(140%);
+  filter: brightness(150%);
+}
+
+button:active{
+  background-color: var(--color1);
+  color: var(--color2);
 }
 
 .button-true{
   background-color: var(--color1);
   color: var(--color2);
+}
+
+.button-true:active{
+  background-color: var(--color2);
+  color: var(--color1);
 }
 
 #conteneur-citation{
@@ -99,16 +110,15 @@ button:hover{
 
 #conteneur-citation>blockquote{
   font-size: 1.25rem;
-  animation: afficheCitation 3.5s linear 0s forwards;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
 }
 
 #auteur{
   font-weight: bold;
   font-size: 1.3rem;
   margin: 10px 0 0 60%;
-  animation: afficheCitation 3.5s linear 0s forwards;
+  opacity: 1;
 }
 
 @keyframes afficheCitation{
@@ -116,11 +126,15 @@ button:hover{
     transform: translateZ(25px);
     opacity: 0;
   }
+  25%{
+    opacity: 0.75;
+  }
   50%{
-    opacity: 0.33;
+    transform: translateZ(0px);
+    opacity: 0.9;
   }
   to{
-    transform: translateZ(0px);
     opacity: 1;
+    transform: translateZ(0px);
   }
 }
