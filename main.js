@@ -4,9 +4,10 @@
   Programme affichant des citations de personnes célèbres avec quelques options pour l'utilisateur qui pourra choisir un thème.
 */
 
-const citation = document.getElementById("cite");
-const auteur = document.getElementById("auteur");
+// const citation = document.getElementById("cite");
+// const auteur = document.getElementById("auteur");
 const boutons = document.querySelectorAll("button");
+const conteneurCitation = document.getElementById("conteneur-citation");
 
 // tableau ou seront entré toutes les citations possibles en fonction du choix de l'utilisateur
 let choixUtilisateur = [];
@@ -25,11 +26,29 @@ let remplirTab = (mot) => {
 
 let lectureCitations = () => {
   const debutRandomCitation = Math.floor(Math.random()*choixUtilisateur.length);
+  let cite = document.createElement("blockquote");
+  let auteur = document.createElement("div");
+  let photo = new Image();
+
+  cite.setAttribute("id", "cite");
+  auteur.setAttribute("id", "auteur");
+  photo.setAttribute("id", "photo");
+  photo.src = "assets/Albert_Einstein.jpg";
+  conteneurCitation.append(cite);
+  conteneurCitation.append(auteur);
+  conteneurCitation.append(photo);
   cite.textContent = choixUtilisateur[debutRandomCitation].texte;
   auteur.textContent = choixUtilisateur[debutRandomCitation].auteur;
   cite.style.animation = "afficheCitation 5s";
   auteur.style.animation = "afficheCitation 5s";
-  console.log(debutRandomCitation);
+  photo.style.animation = "afficheCitation 5s";
+  boutons.forEach((bouton) => {
+    bouton.addEventListener("click", () => {
+      cite.remove();
+      auteur.remove();
+      photo.remove();
+    });
+  });
 }
 
 /*Fonction qui permet le choix utilisateur et lance les citations*/
@@ -55,8 +74,6 @@ function buttonChoixUser(){
     remplirTab("morale");
   }
   lectureCitations();
-  cite.style.animation = "afficheCitation 5s alternate";
-  auteur.style.animation = "afficheCitation 5s alternate";
 }
 
 tous.addEventListener("click", buttonChoixUser);

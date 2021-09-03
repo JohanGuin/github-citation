@@ -67,7 +67,16 @@ main{
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+  "tous tous bon"
+  "cou lib sag"
+  "mor rev sen";
   gap: 3px;
+}
+
+#tous{
+  grid-area: tous;
 }
 
 button{
@@ -106,6 +115,7 @@ button:active{
   height: 300px;
   margin: 50px auto;
   perspective: 100px;
+  position: relative;
 }
 
 #conteneur-citation>blockquote{
@@ -121,17 +131,24 @@ button:active{
   opacity: 1;
 }
 
+#photo{
+  position: absolute;
+  left: 62%;
+  height: 115px;
+  border-radius: 50%;
+}
+
 @keyframes afficheCitation{
   from{
     transform: translateZ(25px);
     opacity: 0;
   }
   25%{
-    opacity: 0.75;
+    opacity: 0.50;
   }
   50%{
     transform: translateZ(0px);
-    opacity: 0.9;
+    opacity: 0.75;
   }
   to{
     opacity: 1;
