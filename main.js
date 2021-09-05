@@ -24,21 +24,13 @@ let remplirTab = (mot) => {
 
 let lectureCitations = () => {
   const debutRandomCitation = Math.floor(Math.random()*choixUtilisateur.length);
-  let longueur = choixUtilisateur[debutRandomCitation].image.length;
-  const randomImage = Math.floor(longueur - 1);
   let cite = document.createElement("blockquote");
   let auteur = document.createElement("div");
   let photo = new Image();
-  let fond = new Image();
-  let rImg = choixUtilisateur[debutRandomCitation].image[randomImage]
 
   cite.setAttribute("id", "cite");
   auteur.setAttribute("id", "auteur");
   photo.setAttribute("id", "photo");
-  fond.setAttribute("id", "fond");
-  console.log(rImg);
-
-  fond.src = `assets/${rImg}`;
 
   if(choixUtilisateur[debutRandomCitation].auteur === "Albert Einstein"){
     photo.src = "assets/Albert_Einstein.jpg";
@@ -52,9 +44,22 @@ let lectureCitations = () => {
     photo.src = "assets/Aldous_Huxley.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur === "Aristote"){
     photo.src = "assets/Aristote.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Benjamin Franklin"){
+    photo.src = "assets/Benjamin_Franklin.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Confucius"){
+    photo.src = "assets/Confucius.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Friedrich Nietzsche"){
+    photo.src = "assets/Friedrich_Nietzsche.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Gandhi"){
+    photo.src = "assets/Gandhi.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Khalil Gibran"){
+    photo.src = "assets/Kahlil_Gibran.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Lao Tseu"){
+    photo.src = "assets/Lao_Tseu.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Eleanor Roosevelt"){
+    photo.src = "assets/Eleanor_Roosevelt.jpg";
   }
 
-  conteneurCitation.append(fond);
   conteneurCitation.append(cite);
   conteneurCitation.append(auteur);
   conteneurCitation.append(photo);
@@ -63,13 +68,11 @@ let lectureCitations = () => {
   cite.style.animation = "afficheCitation 5s";
   auteur.style.animation = "afficheCitation 5s";
   photo.style.animation = "afficheCitation 5s";
-  fond.style.animation = "afficheFond 5s";
   boutons.forEach((bouton) => {
     bouton.addEventListener("click", () => {
       cite.remove();
       auteur.remove();
       photo.remove();
-      fond.remove();
     });
   });
 }
@@ -103,15 +106,16 @@ function buttonChoixUser(){
   }else{
     remplirTab("sensibilite");
   }
-
   lectureCitations();
 }
 
-tous.addEventListener("click", buttonChoixUser);
-bon.addEventListener("click", buttonChoixUser);
-cou.addEventListener("click", buttonChoixUser);
-lib.addEventListener("click", buttonChoixUser);
-sag.addEventListener("click", buttonChoixUser);
-mor.addEventListener("click", buttonChoixUser);
-rev.addEventListener("click", buttonChoixUser);
-sen.addEventListener("click", buttonChoixUser);
+window.addEventListener("load", () => {
+  tous.addEventListener("click", buttonChoixUser);
+  bon.addEventListener("click", buttonChoixUser);
+  cou.addEventListener("click", buttonChoixUser);
+  lib.addEventListener("click", buttonChoixUser);
+  sag.addEventListener("click", buttonChoixUser);
+  mor.addEventListener("click", buttonChoixUser);
+  rev.addEventListener("click", buttonChoixUser);
+  sen.addEventListener("click", buttonChoixUser);
+});
