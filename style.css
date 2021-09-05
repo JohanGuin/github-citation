@@ -53,6 +53,7 @@ h1{
 
 main{
   background-color: var(--color3);
+  overflow: hidden;
 }
 
 #explication{
@@ -60,6 +61,7 @@ main{
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: var(--color2);
+  letter-spacing: -2px;
 }
 
 .conteneur-options{
@@ -113,13 +115,15 @@ button:active{
   background-color: var(--color3);
   width: 80%;
   height: 65vh;
-  margin: 50px auto;
+  margin: 20px auto;
   perspective: 100px;
   position: relative;
 }
 
 #conteneur-citation>blockquote{
   font-size: 1.3rem;
+  word-spacing: 0.25px;
+  letter-spacing: -0.5px;
   text-align: center;
   opacity: 1;
 }
@@ -133,14 +137,16 @@ button:active{
 
 #photo{
   position: absolute;
-  left: 75%;
+  margin-top: -25px;
+  left: 15%;
+  width: 100px;
   height: 115px;
   border-radius: 50%;
 }
 
 @keyframes afficheCitation{
   from{
-    transform: translateZ(25px);
+    transform: translateY(1000px) translateZ(200px);
     opacity: 0;
   }
   25%{
@@ -152,6 +158,6 @@ button:active{
   }
   to{
     opacity: 1;
-    transform: translateZ(0px);
+    transform: translateY(0) translateZ(0px);
   }
 }

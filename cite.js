@@ -272,6 +272,11 @@ const citations = [
     categorie: ["sagesse", "sensibilite"],
   },
   {
+    texte: "Le sens révolutionnaire est un sens moral.",
+    auteur: "Victor Hugo",
+    categorie: ["liberte"],
+  },
+  {
     texte: "Ce qui compte, chez un homme ce n'est pas la couleur de sa peau ou la texture de ses cheveux, mais la texte et la qualité de son âme.",
     auteur: "Martin Luther King",
     categorie: ["morale"],
@@ -807,6 +812,11 @@ const citations = [
     categorie: ["sagesse"],
   },
   {
+    texte: "L'Etat est le plus froid des monstres. Il ment froidement; et voici le mensonge qui s'échappe de sa bouche: \"Moi l'Etat, je suis le peuple\".",
+    auteur: "Friedrich Nietzsche",
+    categorie: ["liberte"],
+  },
+  {
     texte: "Si chacun ne conservait que ce dont il a besoin, nul ne manquerait de rien, et chacun se contenterait de ce qu'il a.",
     auteur: "Gandhi",
     categorie: ["sagesse", "morale"],
@@ -1135,5 +1145,651 @@ const citations = [
     texte: "On ne doit jamais, pour aucune raison, tourner le dos à la vie.",
     auteur: "Eleanor Roosevelt",
     categorie: ["bonheur"],
+  },
+  {
+    texte: "Je t'aime, et t'ai toujours aimé; quand on aime ainsi une personne, on l'aime telle qu'elle est et non telle qu'on la voudrait.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Tous les hommes font la même erreur de s'imaginer que bonheur veut dire que tous les voeux se réalisent.",
+    auteur: "Léon Tolstoï",
+    categorie: ["bonheur", "reve"],
+  },
+  {
+    texte: "Chacun rêve de changer l'humanité, mais personne ne pense à se changer lui-même.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sagesse", "reve"],
+  },
+  {
+    texte: "Nous ne sommes pas ici dans ce monde pour transformer les autres, mais pour nous transformer nous-mêmes.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sagesse", "morale", "sensibilite"],
+  },
+  {
+    texte: "De toutes les sciences que l'homme peut et doit savoir, la principale, c'est la science de vivre de manière à faire le moins de mal et le plus de bien possible.",
+    auteur: "Léon Tolstoï",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Il n'y a pas d'autre amour que celui qui consiste à donner sa vie pour ceux qu'on aime.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Le temps qui nous reste à vivre est plus important que toutes les années écoulées.",
+    auteur: "Léon Tolstoï",
+    categorie: ["bonheur", "courage"],
+  },
+  {
+    texte: "Il faut se mettre à la place de chacun. Tout comprendre, c'est tout pardonner.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sagesse", "sensibilite"],
+  },
+  {
+    texte: "Faire le bien ne peut pas rendre heureux mais faire le mal rendra à coup sûr malheureux.",
+    auteur: "Léon Tolstoï",
+    categorie: ["bonheur", "morale", "sensibilite"],
+  },
+  {
+    texte: "Il n'est nulle grandeur là où manquent simplicité, bonté, et vérité.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Il y'a autant de façons d'aimer qu'il y'a de coeurs.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "C'est une sottise que de se laisser dominer par son passé, il faut lutter pour vivre mieux, beaucoup mieux...",
+    auteur: "Léon Tolstoï",
+    categorie: ["bonheur", "courage"],
+  },
+  {
+    texte: "Si un homme a beaucoup plus qu'il ne faut, c'est que d'autres manquent du nécessaire.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sagesse", "morale"],
+  },
+  {
+    texte: "Se représenter un homme privé de liberté, c'est se le représenter privé de vie.",
+    auteur: "Léon Tolstoï",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Il n'est nullement démontré que les buts vers lesquels tend l'humanité soient la liberté, l'égalité, l'évolution ou la civilisation.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Il me semble bien souvent que les hommes ne mettent guère en pratique les beaux sentiments dont ils font si volontiers parade.",
+    auteur: "Léon Tolstoï",
+    categorie: [],
+  },
+  {
+    texte: "Pourquoi ressembleriez-vous à un autre qu'à vous-même? Restez donc ce que vous êtes.",
+    auteur: "Léon Tolstoï",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Il ne faut écrire qu'au moment où à chaque fois que tu trempes ta plume dans l'encre un morceau de ta chair reste dans l'encrier.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "La beauté ne fait pas l'amour, c'est l'amour qui fait la beauté.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "En aimant, on est toujours heureux parce que notre bonheur est en nous-mêmes.",
+    auteur: "Léon Tolstoï",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Toute la variété, tout le charme, toute la beauté de la vie ne sont qu'un mélange de lumière et d'ombre.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Les grandes oeuvres d'art ne sont grandes que parce qu'elles sont accessibles et compréhensibles à tous.",
+    auteur: "Léon Tolstoï",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Les deux guerriers les plus puissants sont la patience et le temps.",
+    auteur: "Léon Tolstoï",
+    categorie: ["courage", "sagesse"],
+  },
+  {
+    texte: "N'oublie pas que les grandes réalisations prennent du temps et qu'il n'y a pas de succès du jour au lendemain.",
+    auteur: "Léon Tolstoï",
+    categorie: ["courage", "sagesse"],
+  },
+  {
+    texte: "Partout où il y'aura le pouvoir des uns sur les autres, il n'y aura pas de liberté mais l'oppression des uns sur les autres. C'est pourquoi le pouvoir doit être détruit.",
+    auteur: "Léon Tolstoï",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "J'ai appris que le courage n'est pas l'absence de peur, mais la capacité de la vaincre.",
+    auteur: "Nelson Mandela",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Un gagnant est juste un rêveur qui n'a jamais cédé.",
+    auteur: "Nelson Mandela",
+    categorie: ["reve"],
+  },
+  {
+    texte: "Cela semble toujours impossible jusqu'à ce qu'on le fasse.",
+    auteur: "Nelson Mandela",
+    categorie: ["courage"],
+  },
+  {
+    texte: "L'éducation est l'arme la plus puissante pour changer le monde.",
+    auteur: "Nelson Mandela",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Une tête bien faite et un bon coeur forment toujours une formidable combinaison.",
+    auteur: "Nelson Mandela",
+    categorie: [],
+  },
+  {
+    texte: "Prenez sur vous, où que vous viviez, de donner de la joie et de l'espoir autour de vous.",
+    auteur: "Nelson Mandela",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "La bonté de l'homme est une flamme qu'on peut cacher mais qu'on ne peut jamais éteindre.",
+    auteur: "Nelson Mandela",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Aucun de nous, en agissant seul, ne peut atteindre le succès.",
+    auteur: "Nelson Mandela",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Vous obtiendrez plus dans ce monde avec le pardon qu'avec des actes de représailles.",
+    auteur: "Nelson Mandela",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Je ne suis pas vraiment libre si je prive quelqu'un d'autre de sa liberté. L'opprimé et l'oppresseur sont tous deux dépossédés de leur humanité.",
+    auteur: "Nelson Mandela",
+    categorie: ["liberte", "morale"],
+  },
+  {
+    texte: "Que vos choix reflétent vos espoirs et non vos peurs.",
+    auteur: "Nelson Mandela",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Nous devons utiliser le temps à bon escient et nous rendre compte qu'il est toujours temps de faire le bien.",
+    auteur: "Nelson Mandela",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Que règne la liberté. Car jamais le soleil ne s'est couché sur réalisation humaine plus glorieuse.",
+    auteur: "Nelson Mandela",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Etre libre, ce n'est pas seulement se débarasser de ses chaînes; c'est vivre d'une façon qui respecte et renforce la liberté des autres.",
+    auteur: "Nelson Mandela",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Tout homme ou toute institution qui essaiera de me voler ma dignité perdra.",
+    auteur: "Nelson Mandela",
+    categorie: ["liberte", "morale"],
+  },
+  {
+    texte: "L'honneur appartient à ceux qui jamais ne s'éloignent de la vérité, même dans l'obscurité et la difficulté.",
+    auteur: "Nelson Mandela",
+    categorie: [],
+  },
+  {
+    texte: "En faisant scintiller notre lumière, nous offrons aux autres la possibilité d'en faire autant.",
+    auteur: "Nelson Mandela",
+    categorie: [],
+  },
+  {
+    texte: "Jamais cette terre qui est si belle ne devrait connaître l'oppression d'un homme par un autre.",
+    auteur: "Nelson Mandela",
+    categorie: ["liberte", "morale"],
+  },
+  {
+    texte: "Refuser leurs droits aux hommes rivient à contester l'essence de leur humanité.",
+    auteur: "Nelson Mandela",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Ce qui compte dans la vie, ce n'est pas seulement d'avoir vécu. C'est la différence faîte dans le vie des autres qui définit le sens de la vie que nous avons menée.",
+    auteur: "Nelson Mandela",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Je ne perds jamais. Soit je gagne, soit j'apprends.",
+    auteur: "Nelson Mandela",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Le pardon libère l'âme, élimine la peur. C'est pourquoi il est une arme si puissante.",
+    auteur: "Nelson Mandela",
+    categorie: ["sagesse", "morale"],
+  },
+  {
+    texte: "Il faut méditer sur ce qui procure le bonheur, puisque quand on l'a, on a tout,  et lorsqu'il manque, nous faisons tout pour l'avoir.",
+    auteur: "Epicure",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Quand on se suffit à sou-même, on arrive à posséder ce bien inestimable qu'est la liberté.",
+    auteur: "Epicure",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Etre heureux, c'est savoir se contenter de peu.",
+    auteur: "Epicure",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Ce n'est pas tant l'intervention de nos amis qui nous aide mais le fait de savoir que nous pourrons toujours compter sur eux.",
+    auteur: "Epicure",
+    categorie: [],
+  },
+  {
+    texte: "Dépêchons-nous de succomber à la tentation avant qu'elle s'éloigne.",
+    auteur: "Epicure",
+    categorie: [],
+  },
+  {
+    texte: "L'âme vile est enflée d'orgueil dans la prospérité et abattue dans l'adversité.",
+    auteur: "Epicure",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Ne gâchez pas ce que vous avez en désirant ce que vous n'avez pas.",
+    auteur: "Epicure",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Jamais il n'est trop tôt ou trop tard pour travailler à la santé de l'âme.",
+    auteur: "Epicure",
+    categorie: [],
+  },
+  {
+    texte: "Rien ne peut suffire à celui qui considère comme étant peu de chose ce qui est suffisant.",
+    auteur: "Epicure",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "La vraie sagesse, la vraie supériorité ne se gagne pas en luttant mais en laissant les choses se faire d'elles-mêmes. Les plantes qui résistant au vent se cassent, alors que les plantes souples survivent aux ouragans.",
+    auteur: "Epicure",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "C'est parfois la peur de la mort qui pousse les hommes à la mort.",
+    auteur: "Epicure",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Savoir s'étonner à propos est le premier mouvement de l'esprit vers la découverte.",
+    auteur: "Epicure",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Il est sot de demander aux dieux ce que l'on peut se procurer par soi-même.",
+    auteur: "Epicure",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "La chute n'est pas un échec. L'échec, c'est de rester là où on est tombé.",
+    auteur: "Socrate",
+    categorie: ["courage"],
+  },
+  {
+    texte: "La plus grande manière de vivre avec honneur dans ce monde consiste à être en réalité ce que nous prétendons être.",
+    auteur: "Socrate",
+    categorie: ["morale"],
+  },
+  {
+    texte: "N'oublie jamais que tout est éphémère, alors tu ne seras jamais trop joyeux dans le bonheur, ni trop triste dans le chagrin.",
+    auteur: "Socrate",
+    categorie: ["bonheur", "sagesse"],
+  },
+  {
+    texte: "Vous pouvez cacher aux autres une action répréhensible, mais jamais à vous-même.",
+    auteur: "Socrate",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Les plus hauts royaumes de la pensée sont impossibles à atteindre sans d'abord arriver à un certain niveau de compassion.",
+    auteur: "Socrate",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Soyez ouvert, amical et positif avec toutes les personnes que vous rencontrez; tout le monde mène un combat long et difficile.",
+    auteur: "Socrate",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Existe t'il pour l'homme un bien plus précieux que la santé ?",
+    auteur: "Socrate",
+    categorie: [],
+  },
+  {
+    texte: "Le secret du bonheur ne se trouve pas dans la recherche du plus, mais en développant la capacité de jouir de moins.",
+    auteur: "Socrate",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "L'esprit est la source de tout pouvoir; vous devenez ce que vous pensez.",
+    auteur: "Socrate",
+    categorie: ["reve"],
+  },
+  {
+    texte: "L'éducation est l'allumage d'une flamme, et non pas le remplissage d'un navire.",
+    auteur: "Socrate",
+    categorie: [],
+  },
+  {
+    texte: "Beaucoup de réflexion et non beaucoup de connaissances, voilà à quoi il faut tendre.",
+    auteur: "Socrate",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "La sagesse commence dans l'émerveillement.",
+    auteur: "Socrate",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Le premier savoir est le savoir de mon ignorance; c'est le début de l'intelligence.",
+    auteur: "Socrate",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Les bienfaits que nous avons reçus de nos parents sont les plus grands de tous.",
+    auteur: "Socrate",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "L'amour seul connaît le secret de s'enrichir en donnant.",
+    auteur: "Socrate",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Le secret du changement, c'est de concentrer toute votre énergie non pas à lutter contre le passé, mais à construire l'avenir.",
+    auteur: "Socrate",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Beaucoup pensent à vivre longtemps, peu à bien vivre.",
+    auteur: "Socrate",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Un trésor de belles maximes est préférable à un amas de richesses.",
+    auteur: "Socrate",
+    categorie: [],
+  },
+  {
+    texte: "Ecoutez simplement votre coeur, votre intuition. Dans le voyage de la vie, ils sont vos seuls guides.",
+    auteur: "Osho",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Je ne connais pas de plus grande valeur que celle qui consiste à regarder à l'intérieur de notre être.",
+    auteur: "Osho",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "L'amour est comme un oiseau libre d'aller partout, le ciel tout entier est sa liberté.",
+    auteur: "Osho",
+    categorie: ["liberte", "sensibilite"],
+  },
+  {
+    texte: "Si tu aimes une fleur, ne la cueille pas. Si tu l'aimes, laisse-la vivre. L'amour n'est pas la possession. L'amour, c'est apprécier ce qui est.",
+    auteur: "Osho",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "La vie en elle-même est une toile vide. Elle devient ce que vous peignez dessus. Vous pouvez peindre la misère ou vous pouvez peindre la joie. Cette liberté est votre splendeur.",
+    auteur: "Osho",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Vous ne pouvez être que ce que vous êtes. Détentez-vous! L'existence a besoin de vous tel que vous êtes.",
+    auteur: "Osho",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Si vous devenez une lumière, ce n'est pas seulement votre vie à vous qui sera illuminée, mais aussi tous ceux qui vous entourent. Beaucoup pourront, grâce à vous, faire le voyage et atteindre leur but.",
+    auteur: "Osho",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Que chaque événement de votre vie vous apprenne quelque chose.",
+    auteur: "Osho",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "L'oeil plein de préjugés est aveugle, le coeur plein de conclusions est mort.",
+    auteur: "Osho",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "La vie ne vous suit pas, vous devez suivre la vie.",
+    auteur: "Osho",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "La vie est ainsi. Vous ne pouvez pas vous y préparer, vous ne pouvez pas être prêt. C'est cela sa beauté, elle vous surprend toujours.",
+    auteur: "Osho",
+    categorie: ["courage"],
+  },
+  {
+    texte: "La vie commence là où finit la peur.",
+    auteur: "Osho",
+    categorie: ["courage", "liberte"],
+  },
+  {
+    texte: "La vie est une aventure, une exploration permanente à travers les épreuves et les erreurs. C'est sa véritable joie, son vrai nectar !",
+    auteur: "Osho",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Vous devez vivre chaque instant comme si c'était le dernier.",
+    auteur: "Osho",
+    categorie: [],
+  },
+  {
+    texte: "La vraie question n'est pas de savoir si la vie existe après la mort mais de savoir si vous êtes en vie avant la mort.",
+    auteur: "Osho",
+    categorie: ["bonheur", "sagesse", "morale"],
+  },
+  {
+    texte: "Personne ne peut donner un sens à votre vie, c'est votre vie, le sens doit vous appartenir.",
+    auteur: "Osho",
+    categorie: [],
+  },
+  {
+    texte: "La plus grande peur dans le monde est celle du jugement des autres. A partir du moment où vous n'avez plus peur de ce jugement, alors vous n'êtes plus un mouton, vous devenez un lion. Un grand rugissement émane de votre coeur. Le rugissement de la liberté",
+    auteur: "Osho",
+    categorie: ["courage", "liberté"],
+  },
+  //auteur a éventuellement classer
+  {
+    texte: "Il n'y a personne qui soit né sous une mauvaise étoile, Il n'y a que des gens qui ne savent pas lire le ciel.",
+    auteur: "Dalaï-lama",
+    categorie: ["courage"],
+  },
+  {
+    texte: "L'important c'est d'avoir des rêves assez grands pour ne pas les perdre de vue lorsqu'on les poursuit.",
+    auteur: "Oscar Wilde",
+    categorie: ["reve"],
+  },
+  {
+    texte: "Il ne faut pas attendre d'être parfait pour commencer quelque chose de bien.",
+    auteur: "Abbé Pierre",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Mille victoires sur milles ennemis ne valent pas une seule victoire sur soi-même.",
+    auteur: "Bouddha",
+    categorie: ["courage", "morale"],
+  },
+  {
+    texte: "La vie peut-être merveilleuse si on n'en a pas peur.",
+    auteur: "Charlie Chaplin",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Créé un chemin pour la venue des jours positifs.",
+    auteur: "Bob Marley",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Nous savons ce que nous sommes, mais nous ignorons ce que nous pourrions être.",
+    auteur: "William Shakespeare",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Il ne faut appeller richesses les choses que l'on peut perdre.",
+    auteur: "Léonard de Vinci",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Celui qui n'a pas le courage de se reveller n'a pas le droit de se lamenter.",
+    auteur: "Che Guevara",
+    categorie: ["courage", "liberte"],
+  },
+  {
+    texte: "Suivez votre coeur et votre intuition, l'un et l'autre savent ce que vous voulez devenir.",
+    auteur: "Steve Jobs",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Il y'a toujours puisque je le dis, puisque je l'affirme, au bout du chagrin, une fenêtre ouverte.",
+    auteur: "Mère Teresa",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Le succès c'est d'aller d'échec en échec sans perdre son enthousiasme.",
+    auteur: "Winston Churchill",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Il n'existe pas d'occasion unique, le vie offre toujours une seconde chance.",
+    auteur: "Paulo Coelho",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Si vous pouvez le rêver, vous pouvez le faire.",
+    auteur: "Walt Disney",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Tu ne traverseras jamais l'océan si tu as peur de perdre de vue le rivage.",
+    auteur: "Christophe Colomb",
+    categorie: ["courage"],
+  },
+  {
+    texte: "L'imperfection est beauté, la folie est génie et il vaut mieux être totalement ridicule que totalement ennuyeux.",
+    auteur: "Marilyn Monroe",
+    categorie: [],
+  },
+  {
+    texte: "Dans la vie, rien n'est à craindre tout est à comprendre.",
+    auteur: "Marie Curie",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "La vrai générosité envers l'avenir consiste à tout donner au présent.",
+    auteur: "Albert Camus",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Ils ne savaient pas que c'était impossible, alors ils l'ont fait.",
+    auteur: "Mark Twain",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Rien n'est jamais fini, il suffit d'un peu de bonheur pour que tout recommence.",
+    auteur: "Emile Zola",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Si nous vivons, nous vivons pour marcher sur la tête des puissants... Car les puissants ne travaillent qu'a marcher sur nos vies.",
+    auteur: "William Shakespeare",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Surtout, soyez toujours capables de ressentir au plus profond de votre coeur n'importe qu'elle injustice commise contre n'importe qui, où que ce soit dans le monde. C'est la plus belle qualité d'une révolutionnaire.",
+    auteur: "Che Guevara",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Les libertés ne se donnent pas, elles se prennent.",
+    auteur: "Pierre Kropotkine",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Quiconque met la main sur moi pour me gouverner est un usurpateur et un tyran; je le déclare mon ennemi.",
+    auteur: "Pierre-Joseph Proudhon",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Le fait de pouvoir élire librement des maîtres ne supprime ni les maîtres ni les esclaves.",
+    auteur: "Herbert Marcuse",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "L'Etat ne poursuit jamais qu'un but: limiter, enchaîner, assujettir, subordonner l'individu.",
+    auteur: "Max Stirner",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Les prolétaires n'ont rien à perdre que leurs chaînes. Ils ont le monde à gagner. Prolétaires de tous les pays, unissez-vous !",
+    auteur: "Karl Marx",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "La révolution sera la floraison de l'humanité comme l'amour est la floraison du coeur.",
+    auteur: "Louise Michel",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Toutes les lois sont oppressives et criminelles. Elles ne protègent que les riches et les heureux.",
+    auteur: "Octave Mirbeau",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "N'est-il pas évident que tous les gouvernements sont les empoisonneurs, les abêtisseurs intéressés des masses populaires ?",
+    auteur: "Mikhail Bakounine",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Disparaissez enfin, révoltantes distinctions de riches et de pauvres, de grands et de petits, de gouvernants et de gouvernés.",
+    auteur: "Sylvain Maréchal",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Ils ne sont grands que parce que nous sommes à genoux.",
+    auteur: "Etienne de la Boétie",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Il n'y a que ceux qui ne bougent pas qui ne remarquent pas leurs chaînes.",
+    auteur: "Rosa Luxemburg",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Le temps viendra où notre silence sera plus puissant que les voix que vous étranglez aujourd'hui.",
+    auteur: "August Spies",
+    categorie: ["liberte"],
   },
 ];
