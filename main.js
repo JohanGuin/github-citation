@@ -6,6 +6,7 @@
 
 const boutons = document.querySelectorAll("button");
 const conteneurCitation = document.getElementById("conteneur-citation");
+let tabImage = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg", "23.jpg", "24.jpg", "25.jpg", "26.jpg"];
 
 // tableau ou seront entré toutes les citations possibles en fonction du choix de l'utilisateur
 let choixUtilisateur = [];
@@ -24,14 +25,20 @@ let remplirTab = (mot) => {
 
 let lectureCitations = () => {
   const debutRandomCitation = Math.floor(Math.random()*choixUtilisateur.length);
+  const randomImage = Math.floor(Math.random()*tabImage.length + 1);
   let cite = document.createElement("blockquote");
   let auteur = document.createElement("div");
   let photo = new Image();
+  let fond = new Image();
 
   cite.setAttribute("id", "cite");
   auteur.setAttribute("id", "auteur");
   photo.setAttribute("id", "photo");
+  fond.setAttribute("id", "fond");
 
+  fond.src = `assets/${randomImage}.jpg`;
+
+  //Sélection des photos des auteurs
   if(choixUtilisateur[debutRandomCitation].auteur === "Albert Einstein"){
     photo.src = "assets/Albert_Einstein.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur === "Malcolm X"){
@@ -127,26 +134,77 @@ let lectureCitations = () => {
   }else if(choixUtilisateur[debutRandomCitation].auteur === "Bouddha"){
     photo.src = "assets/Bouddha.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur === "Abbé Pierre"){
-    photo.src = "assets/abbe_Pierre.jpg";
+    photo.src = "assets/Abbe_Pierre.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur === "Oscar Wilde"){
     photo.src = "assets/Oscar_Wilde.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Dalaï-lama"){
-    photo.src = "assets/Dalai_Lama.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Marcel Jouhandeau"){
+    photo.src = "assets/Marcel_Jouhandeau.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Johann Wolfgang von Goethe"){
+    photo.src = "assets/Goethe.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Les Brown"){
+    photo.src = "assets/Les_Brown.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "AL Evans"){
+    photo.src = "assets/AL_Evans.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Octave Feuillet"){
+    photo.src = "assets/Octave_Feuillet.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Joel Brown"){
+    photo.src = "assets/Joel_Brown.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Jean Bies"){
+    photo.src = "assets/Jean_Bies.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Paul Fort"){
+    photo.src = "assets/Paul_Fort.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Oliver Goldsmith"){
+    photo.src = "assets/Oliver_Goldsmith.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Théodore Roosevelt"){
+    photo.src = "assets/Theodore_Roosevelt.png";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Michael Jordan"){
+    photo.src = "assets/Michael_Jordan.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Anatole France"){
+    photo.src = "assets/Anatole_France.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Ed Sheeran"){
+    photo.src = "assets/Ed_Sheeran.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Georges Brassens"){
+    photo.src = "assets/Georges_Brassens.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Ernest Hemingway"){
+    photo.src = "assets/Ernest_Hemingway.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Pierre Larousse"){
+    photo.src = "assets/Pierre_Larousse.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Léon Blum"){
+    photo.src = "assets/Léon_Blum.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Jules Renard"){
+    photo.src = "assets/Jules_Renard.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Paul Eluard"){
+    photo.src = "assets/Paul_Eluard.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Périclès"){
+    photo.src = "assets/Pericles.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Jean-Jacques Rousseau"){
+    photo.src = "assets/JeanJacques_Rousseau.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Simone de Beauvoir"){
+    photo.src = "assets/Simone_DeBeauvoir.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "sagesse hindoue"){
+    photo.src = "assets/sagesse_hindoue.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Mikao Usui"){
+    photo.src = "assets/Mikao_Usui.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Bill Cosby"){
+    photo.src = "assets/Bill_Cosby.jpg";
   }
 
   conteneurCitation.append(cite);
   conteneurCitation.append(auteur);
   conteneurCitation.append(photo);
+  conteneurCitation.append(fond);
   cite.textContent = "\" " + choixUtilisateur[debutRandomCitation].texte + " \"";
   auteur.textContent = choixUtilisateur[debutRandomCitation].auteur;
-  cite.style.animation = "afficheCitation 5s";
-  auteur.style.animation = "afficheCitation 5s";
-  photo.style.animation = "afficheCitation 5s";
+  cite.style.animation = "afficheCitation 5s, changeCouleurCitation 17.5s";
+  auteur.style.animation = "afficheCitation 5s, effacePhoto 12s 5s both";
+  photo.style.animation = "afficheCitation 5s, effacePhoto 12s 5s both";
+  fond.style.animation = "animFond 10s 5s both";
   boutons.forEach((bouton) => {
     bouton.addEventListener("click", () => {
       cite.remove();
       auteur.remove();
       photo.remove();
+      fond.remove();
     });
   });
 }

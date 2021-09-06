@@ -152,7 +152,7 @@ const citations = [
     categorie: [],
   },
   {
-    texte: "Les médias sont l’entité la plus puissante sur terre. Ils ont le pouvoir de faire les innocents coupables et rendre coupable l’innocent, et ça c’est pouvoir. Parce qu’ils contrôlent l’esprit des masses.",
+    texte: "Les médias sont les entités les plus puissantes sur terre. Ils ont le pouvoir de rendre les innocents coupables et faire des coupables des innocents, et c'est ça le pouvoir. Parce qu’ils contrôlent l’esprit des masses.",
     auteur: "Malcolm X",
     categorie: ["liberte", "morale"],
   },
@@ -297,7 +297,7 @@ const citations = [
     categorie: ["courage", "liberte"],
   },
   {
-    texte: "Croyez en vous rêves et ils se réaliseront peut-être. Croyez en vous et ils se réaliseront sûrement.",
+    texte: "Croyez en vos rêves et ils se réaliseront peut-être. Croyez en vous et ils se réaliseront sûrement.",
     auteur: "Martin Luther King",
     categorie: ["bonheur", "courage", "reve"],
   },
@@ -534,7 +534,7 @@ const citations = [
   {
     texte: "Le courage est la première des qualités humaines car elle garantit toutes les autres.",
     auteur: "Aristote",
-    categorie: ["courage"],
+    categorie: ["courage", "reve"],
   },
   {
     texte: "Le bonheur est en même temps ce qu'il y'a de meilleur, de plus beau et de plus agréable.",
@@ -1367,7 +1367,7 @@ const citations = [
     categorie: ["morale"],
   },
   {
-    texte: "Ce qui compte dans la vie, ce n'est pas seulement d'avoir vécu. C'est la différence faîte dans le vie des autres qui définit le sens de la vie que nous avons menée.",
+    texte: "Ce qui compte dans la vie, ce n'est pas seulement d'avoir vécu. C'est la différence faîte dans la vie des autres qui définit le sens de la vie que nous avons menée.",
     auteur: "Nelson Mandela",
     categorie: ["morale"],
   },
@@ -1791,5 +1791,220 @@ const citations = [
     texte: "Le temps viendra où notre silence sera plus puissant que les voix que vous étranglez aujourd'hui.",
     auteur: "August Spies",
     categorie: ["liberte"],
+  },
+  {
+    texte: "C'est parce qu'on imagine simultanément tous les pas qu'on devra faire qu'on se décourage, alors qu'il s'agit de les aligner un à un.",
+    auteur: "Marcel Jouhandeau",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Quoi que vous rêviez d'entreprendre, commencez-le. L'audace a du génie, du pouvoir et de la magie.",
+    auteur: "Johann Wolfgang von Goethe",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Il faut prendre des risques. Nous ne comprenons vraiment le miracle de la vie que lorsque nous laissons arriver l'inattendu.",
+    auteur: "Paulo Coelho",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Personne n'est trop vieux pour se fixer un nouvel objectif ou faire de nouveaux rêves.",
+    auteur: "Les Brown",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Ne te laisse pas décourager par la vie; tous ceux qui se sont rendus où ils sont, ont dû partir d'où ils étaient.",
+    auteur: "AL Evans",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "L'espoir est comme le ciel des nuits: il n'est pas coin si sombre où l'oeil qui s'obstine ne finisse par découvrir une étoile.",
+    auteur: "Octave Feuillet",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Avec coeur et courage faites de votre vie un poème, une peinture, une oeuvre. Votre oeuvre.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Tes rêves te demandent de risquer, de délaisser le confort, d'exister dans le monde, d'être différent, et de croire en toi.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Quoi qu'il arrive, continuez à avancer. Abandonner ses rêves, ses espoirs, ses envies, c'est mourir à petit feu.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Il y'aura des obstacles, il y'aura des doutes, il y'aura des erreurs, mais si tu travailles fort, il n'y aura aucune limites.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Si nous doutions de nos peurs au lieu de douter de nos rêves, imaginez tout ce qu'on pourrait accomplir.",
+    auteur: "Joel Brown",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Tu ne te noies pas en tombant dans l'eau; tu te noies en y restant.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Il n'y a pas de traversée du désert, il n'y a qu'une marche vers l'oasis.",
+    auteur: "Jean Bies",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "La vie nous donne toujours une seconde chance qui s'appelle demain.",
+    auteur: "Paul Fort",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Notre plus grande gloire n'est pas de ne jamais tomber, mais de nous relever à chaque fois que nous tombons.",
+    auteur: "Oliver Goldsmith",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Crois que tu y arriveras et tu seras à mi-chemin.",
+    auteur: "Théodore Roosevelt",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Les obstacles ne doivent pas t'arrêter. Si tu rencontres un mur, ne te retourne pas et n'abandonne pas. Tu dois comprendre comment escalader, traverser ou contourner le problème.",
+    auteur: "Michael Jordan",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Les batailles de la vie ne sont pas gagnées par les plus forts, ni par les plus rapides, mais par ceux qui n'abandonnent jamais.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "C'est en croyant aux roses qu'on les fait éclore.",
+    auteur: "Anatole France",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Il ne s'agit pas d'être parfait. Il s'agit de faire des efforts. Si tu persévères chaque jour, c'est ainsi que se produira un changement.",
+    auteur: "inconnu",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Tout ira pour le mieux à la fin. Si ce n'est pas mieux, c'est que ce n'est pas la fin.",
+    auteur: "Ed Sheeran",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "La seule révolution possible, c'est d'essayer de s'améliorer soi-même, en espérant que les autres fassent la même démarche. Le monde ira mieux alors.",
+    auteur: "Georges Brassens",
+    categorie: ["courage", "liberte", "reve"],
+  },
+  {
+    texte: "Plutôt que de penser à ce que tu n'a pas, pense à ce que tu peux faire avec ce que tu as.",
+    auteur: "Ernest Hemingway",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Ne mépriser la sensibilit de personne. La sensibilité de chacun, c'est son génie.",
+    auteur: "Charles Beaudelaire",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "La sensibilité n'est pas la fragilité. C'est l'incapacité de rester superficiel. C'est aller toujours au fond. Dans les choses, dans les personnes, dans les émotions.",
+    auteur: "Serena Santorelli",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "La source de toutes les passions est la sensibilité.",
+    auteur: "inconnu",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "La liberté est le plus grand de tous les biens.",
+    auteur: "Pierre Larousse",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "L'homme libre est celui qui n'a pas peur d'aller jusqu'au bout de sa pensée.",
+    auteur: "Léon Blum",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Vive la liberté! A bas l'intolérance!",
+    auteur: "Jules Renard",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Et par le pouvoir d'un mot. Je recommence ma vie. Je suis né pour te connaître. Pour te nommer. Liberté.",
+    auteur: "Paul Eluard",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Le secret du bonheur est la liberté. Le secret de la liberté est le courage",
+    auteur: "Périclès",
+    categorie: ["bonheur", "liberte"],
+  },
+  {
+    texte: "La liberté est un bagne aussi longtemps qu'un seul homme est asservi sur la terre.",
+    auteur: "Albert Camus",
+    categorie: ["liberte", "morale"],
+  },
+  {
+    texte: "Renoncer à sa liberté c'est renoncer à sa qualité d'homme, aux droits de l'humanité, même à ses devoirs.",
+    auteur: "Jean-Jacques Rousseau",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "C'est la liberté: bien si grand que dès qu'elle est perdue tous les maux s'ensuivent, et que, sans elle, tous les autres biens, corrompus par la servitude, perdent entièrement leur goût et leur saveur.",
+    auteur: "Etienne de la Boétie",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Se vouloir libre, c'est aussi vouloir les autres libres.",
+    auteur: "Simone de Beauvoir",
+    categorie: ["liberte"],
+  },
+  {
+    texte: "Ignore ceux qui parlent dans ton dos. Car c'est là qu'est leur place. Derrière toi pendant que toi tu continues d'avancer.",
+    auteur: "inconnu",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Si tu veux connaître le coeur d'une personne, observe comment elle se comporte avec les gens qui ne peuvent rien lui apporter.",
+    auteur: "sagesse hindoue",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "La vie est ainsi faite: savoir s'adapter à des situations extrêmes pour pouvoir survivre!",
+    auteur: "inconnu",
+    categorie: [],
+  },
+  {
+    texte: "Dans chaque épreuve, ne cherchez pas l'ennemi, cherchez l'enseignement.",
+    auteur: "Mikao Usui",
+    categorie: ["courage", "sagesse"],
+  },
+  {
+    texte: "Je ne connais pas la clé du succès, mais la clé d'un échec est d'essayer de plaire à tout le monde.",
+    auteur: "Bill Cosby",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Je souhaite à tous ceux que j'aime un petit grain de folie: cela rend le coeur gai.",
+    auteur: "Anatole France",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "Il n'est pas de plus grande folie que de ne pas en avoir.",
+    auteur: "Emile Zola",
+    categorie: [],
+  },
+  {
+    texte: "Le fou se croit sage et le sage se reconnaît fou.",
+    auteur: "William Shakespeare",
+    categorie: ["sagesse"],
   },
 ];
