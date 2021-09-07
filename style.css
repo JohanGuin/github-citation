@@ -29,18 +29,19 @@ body{
 }
 
 header{
-  background-color: var(--color3);
+  background-image: linear-gradient(0deg, var(--color1), var(--color3), var(--color2));
 }
 
 h1{
   font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
   font-size: 3em;
   line-height: 100px;
   text-align: center;
   text-shadow: 3px 3px 5px var(--color3);
   animation: animTitre 5s ease-in-out 0s forwards;
   color: transparent;
-  letter-spacing: -15px;
+  letter-spacing: 0px;
 }
 
 @keyframes animTitre{
@@ -54,6 +55,7 @@ h1{
 main{
   background-color: var(--color3);
   overflow: hidden;
+  padding-top: 20px;
 }
 
 #explication{
@@ -93,11 +95,14 @@ button{
 
 button:hover{
   filter: brightness(150%);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 button:active{
   background-color: var(--color1);
   color: var(--color2);
+  transform: scale(1.2);
 }
 
 .button-true{
@@ -118,6 +123,9 @@ button:active{
   margin: 10px auto;
   perspective: 100px;
   position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 #conteneur-citation>blockquote{
@@ -131,16 +139,16 @@ button:active{
 #auteur{
   font-weight: bold;
   font-size: 1.5rem;
-  margin: 10px 0 0 60%;
+  margin: 0 0 100% 65%;
   color: var(--color1);
 }
 
 #photo{
   position: absolute;
-  margin-top: -25px;
+  margin-top: 80px;
   left: 15%;
-  width: 150px;
-  height: 175px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
 }
 
@@ -152,6 +160,10 @@ button:active{
   height: 50vh;
   z-index: -10;
   opacity: 0.1;
+}
+
+footer{
+  text-align: center;
 }
 
 @keyframes afficheCitation{
@@ -211,6 +223,7 @@ button:active{
     "sag mor rev sen";
   }
   #photo{
+    top: 12%;
     left: 40%;
     width: 125px;
     height: 150px;
@@ -229,7 +242,8 @@ button:active{
     gap: 5px;
   }
   #photo{
-    left: 45%;
+    top: 20%;
+    left: 40%;
     width: 125px;
     height: 150px;
   }
@@ -242,7 +256,9 @@ button:active{
     letter-spacing: -0.5px;
     text-align: center;
   }
-
+  #auteur{
+    font-size: 1.5rem;
+  }
   #fond{
     width: 120%;
     left: -100px;

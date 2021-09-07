@@ -10,6 +10,7 @@ let tabImage = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "
 
 // tableau ou seront entré toutes les citations possibles en fonction du choix de l'utilisateur
 let choixUtilisateur = [];
+let debutRandomCitation = null;
 
 // Remplissage des options du tableau suite aux choix de l'utilisateur
 let remplirTab = (mot) => {
@@ -23,8 +24,15 @@ let remplirTab = (mot) => {
   }
 }
 
+let lienWiki = () => {
+  const lienAffichage = document.querySelector("nav ul li");
+  const lienUn = document.createElement("a");
+  lienUn.src = choixUtilisateur[debutRandomCitation].lien;
+  console.log(lienUn);
+}
+
 let lectureCitations = () => {
-  const debutRandomCitation = Math.floor(Math.random()*choixUtilisateur.length);
+  debutRandomCitation = Math.floor(Math.random()*choixUtilisateur.length);
   const randomImage = Math.floor(Math.random()*tabImage.length + 1);
   let cite = document.createElement("blockquote");
   let auteur = document.createElement("div");
@@ -187,6 +195,10 @@ let lectureCitations = () => {
     photo.src = "assets/Mikao_Usui.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur === "Bill Cosby"){
     photo.src = "assets/Bill_Cosby.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "Voltaire"){
+    photo.src = "assets/Voltaire.png";
+  }else if(choixUtilisateur[debutRandomCitation].auteur === "inconnu"){
+    photo.src = "assets/Inconnu.jpg";
   }
 
   conteneurCitation.append(cite);
@@ -196,9 +208,11 @@ let lectureCitations = () => {
   cite.textContent = "\" " + choixUtilisateur[debutRandomCitation].texte + " \"";
   auteur.textContent = choixUtilisateur[debutRandomCitation].auteur;
   cite.style.animation = "afficheCitation 5s, changeCouleurCitation 17.5s";
-  auteur.style.animation = "afficheCitation 5s, effacePhoto 12s 5s both";
+  auteur.style.animation = "afficheCitation 5s, changeCouleurCitation 17.5s";
   photo.style.animation = "afficheCitation 5s, effacePhoto 12s 5s both";
   fond.style.animation = "animFond 10s 5s both";
+  auteur.addEventListener("click", lienWiki);
+  photo.addEventListener("click", lienWiki);
   boutons.forEach((bouton) => {
     bouton.addEventListener("click", () => {
       cite.remove();
