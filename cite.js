@@ -752,6 +752,11 @@ const citations = [
     categorie: ["bonheur"],
   },
   {
+    texte: "Tous les hommes pensent que le bonheur réside dans le sommet de la montagne, alors qu'il réside plutôt dans la façon de la gravir.",
+    auteur: "Confucius",
+    categorie: ["bonheur", "courage"],
+  },
+  {
     texte: "Deviens qui tu es! Fais ce que toi seul peux faire.",
     auteur: "Friedrich Nietzsche",
     categorie: ["bonheur", "courage"],
@@ -835,6 +840,16 @@ const citations = [
     texte: "La croyance que rien ne change provient soit d'une mauvaise vue, soit d'une mauvaise foi. La première se corrige, la seconde se combat.",
     auteur: "Friedrich Nietzsche",
     categorie: ["courage"],
+  },
+  {
+    texte: "Quand on lutte contre des monstres. Il faut prendre garde de ne pas devenir monstre soi-même. Si tu plonges longuement ton regard dans l'abîme, l'abîme finit par ancrer son regard en toi.",
+    auteur: "Friedrich Nietzsche",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Celui qui sait commander trouve toujours ceux qui doivent obéir.",
+    auteur: "Friedrich Nietzsche",
+    categorie: ["morale"],
   },
   {
     texte: "Le serpent qui ne peut changer de peau, meurt. Il en va de même des esprits que l'on empêche de changer d'opinion: ils cessent d'être esprit.",
@@ -1713,12 +1728,72 @@ const citations = [
     categorie: ["courage"],
   },
   {
+    texte: "Un pessimiste voit la difficulté dans chaque opportunité. Un optimiste voit l'opportunité dans chaque difficulté.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Il est une bonne chose de lire des livres de citations, car les citations lorqu'elles sont gravées dans la mémoure vous donnent de bonnes pensées.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "L'Histoire me sera indulgente, car j'ai l'intention de l'écrire.",
+    auteur: "Winston Churchill",
+    categorie: [],
+  },
+  {
+    texte: "Agissez comme s'il était impossible d'échouer.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Plus vous saurez regarder loin dans le passé. Plus vous verrez loin dans le futur.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "La grande leçon de la vie. C'est que parfois, ce sont les fous qui ont raison.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Construire peut être le fruit d'un travail long et acharné. Détruire peut être l'oeuvre d'une seule journée.",
+    auteur: "Winston Churchill",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Ce n'est que quand il fait nuit que les étoiles brillent.",
+    auteur: "Winston Churchill",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Pour s'améliorer, il faut changer. Donc, pour être parfait, il faut avoir changé souvent.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Je ne crois aux statistiques que lorsque je les ai moi-même falsifiées.",
+    auteur: "Winston Churchill",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Le succès n'est pas final, l'échec n'est pas fatal: c'est le courage de continuer qui compte.",
+    auteur: "Winston Churchill",
+    categorie: ["courage"],
+  },
+  {
     texte: "Il n'existe pas d'occasion unique, le vie offre toujours une seconde chance.",
     auteur: "Paulo Coelho",
     categorie: ["courage"],
   },
   {
     texte: "Si vous pouvez le rêver, vous pouvez le faire.",
+    auteur: "Walt Disney",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Si nous avons le courage de les poursuivre, tous les rêves deviennent réalité.",
     auteur: "Walt Disney",
     categorie: ["courage", "reve"],
   },
@@ -1738,15 +1813,71 @@ const citations = [
     categorie: ["sagesse"],
   },
   {
-    texte: "La vrai générosité envers l'avenir consiste à tout donner au présent.",
-    auteur: "Albert Camus",
-    categorie: ["courage"],
-  },
-  {
     texte: "Ils ne savaient pas que c'était impossible, alors ils l'ont fait.",
     auteur: "Mark Twain",
     categorie: ["courage", "reve"],
   },
+  {
+    texte: "Dans 20 ans, tu seras plus déçu par les choses que tu n'a pas faites que par celles qui tu auras faites. Alors, sors des sentiers battus. Mets les voiles. Explore. Rêve. Découvre",
+    auteur: "Mark Twain",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Chacun de nous est une lune avec une face cachée que personne ne voit.",
+    auteur: "Mark Twain",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Détournez-vous de ceux qui vous découragent de vos ambitions. C'est l'habitude des mesquins. Ceux qui sont vraiment grands vous font comprendre que vous aussi pouvez le devenir.",
+    auteur: "Mark Twain",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "La gentillesse est le langage qu'un sourd peut entendre et qu'un aveugle peut voir.",
+    auteur: "Mark Twain",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Il est curieux que le courage physique soit si répandu en ce monde et le courage moral si rare.",
+    auteur: "Mark Twain",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Le danger, ce n'est pas ce qu'on ignore, c'est ce que l'on tient pour certain et qui ne l'est pas.",
+    auteur: "Mark Twain",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "L'homme est le plus cruel de tous les animaux, il est le seul capable d'infliger une douleur à ses congénères sans autre motif que le plaisir.",
+    auteur: "Mark Twain",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Le rôle d'un ami, c'est d'être à vos côtés quand vous êtes dans l'erreur, car tout le monde sera à côté de vous quand vous aurez raison.",
+    auteur: "Mark Twain",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Chaque fois que vous vous retrouvez du côté de la majorité, il est temps de vous arrêter et de réfléchir.",
+    auteur: "Mark Twain",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Les deux jours les plus importants de votre vie sont le jour de votre naissance et le jour où vous découvrez pourquoi vous êtes né.",
+    auteur: "Mark Twain",
+    categorie: ["sagesse"],
+  },
+  {
+    texte: "Le fait qu'un homme distingue le bien du mal prouve sa supériorité intellectuelle par rapport à toute autre créature; mais le fait qu'il puisse mal agir prouve l'infériorité de son esprit.",
+    auteur: "Mark Twain",
+    categorie: ["morale"],
+  },
+  {
+    texte: "Concentrez-vous plus sur votre désir que sur votre doute, et le rêve prendra soin de lui-même.",
+    auteur: "Mark Twain",
+    categorie: ["courage", "reve"],
+  },
+
   {
     texte: "Rien n'est jamais fini, il suffit d'un peu de bonheur pour que tout recommence.",
     auteur: "Emile Zola",
@@ -1978,9 +2109,64 @@ const citations = [
     categorie: ["bonheur", "liberte"],
   },
   {
+    texte: "Si on veut obtenir ce quelque chose que l'on a jamais eu. Il faut tenter quelque chose que l'on a jamais fait.",
+    auteur: "Périclès",
+    categorie: ["courage"],
+  },
+  {
     texte: "La liberté est un bagne aussi longtemps qu'un seul homme est asservi sur la terre.",
     auteur: "Albert Camus",
     categorie: ["liberte", "morale"],
+  },
+  {
+    texte: "La grandeur de l'homme est dans sa décision d'être plus fort que sa condition.",
+    auteur: "Albert Camus",
+    categorie: ["courage"],
+  },
+  {
+    texte: "La vrai générosité envers l'avenir consiste à tout donner au présent.",
+    auteur: "Albert Camus",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Rien au monde ne vaut qu'on se détourne de ce qu'on aime.",
+    auteur: "Albert Camus",
+    categorie: ["courage", "reve"],
+  },
+  {
+    texte: "Au milieu de l'hiver, j'ai découvert en moi un invincible été.",
+    auteur: "Albert Camus",
+    categorie: [""],
+  },
+  {
+    texte: "Il y'a dans chaque coeur un coin de solitude où personne ne peut atteindre.",
+    auteur: "Albert Camus",
+    categorie: ["sensibilite"],
+  },
+  {
+    texte: "Si un maître ne peut pas se passer de son esclave, lequel des deux est un homme libre ?",
+    auteur: "Albert Camus",
+    categorie: ["sagesse", "liberte"],
+  },
+  {
+    texte: "Je sais maintenant qu'il n'y a pas de bonheur dans la haine.",
+    auteur: "Albert Camus",
+    categorie: ["bonheur"],
+  },
+  {
+    texte: "On se fait toujours des idées exagérées de ce qu'on ne connaît pas.",
+    auteur: "Albert Camus",
+    categorie: ["courage"],
+  },
+  {
+    texte: "Créer c'est donner une forme à son destin.",
+    auteur: "Albert Camus",
+    categorie: [],
+  },
+  {
+    texte: "Tu ne seras jamais heureux si tu cherches continuellement de quoi est fait le bonheur... Tu ne vivras jamais si tu cherches toujours un sens à la vie.",
+    auteur: "Albert Camus",
+    categorie: ["bonheur"],
   },
   {
     texte: "Renoncer à sa liberté c'est renoncer à sa qualité d'homme, aux droits de l'humanité, même à ses devoirs.",
@@ -2036,16 +2222,6 @@ const citations = [
     texte: "Le fou se croit sage et le sage se reconnaît fou.",
     auteur: "William Shakespeare",
     categorie: ["sagesse"],
-  },
-  {
-    texte: "Je ne crois aux statistiques que lorsque je les ai moi-même falsifiées.",
-    auteur: "Winston Churchill",
-    categorie: ["sagesse"],
-  },
-  {
-    texte: "Le succès n'est pas final, l'échec n'est pas fatal: c'est le courage de continuer qui compte.",
-    auteur: "Winston Churchill",
-    categorie: ["courage"],
   },
   {
     texte: "Un pays bien organisé est celui où le petit nombre fait travailler le grand nombre, est nourri par lui, et le gouverne.",
