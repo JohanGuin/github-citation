@@ -67,7 +67,7 @@ main{
 }
 
 .conteneur-options{
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,13 +119,13 @@ button:active{
   font-family: "Oswald", sans-serif;
   background-color: var(--color3);
   width: 80%;
-  height: 65vh;
+  height: 60vh;
   margin: 10px auto;
   perspective: 100px;
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr 1.5fr;
+  grid-template-columns: 1fr 1.75fr;
+  grid-template-rows: 1fr 1.75fr;
   grid-template-areas:
   "fd cite"
   "fd aut";
@@ -134,7 +134,8 @@ button:active{
 #fond{
   grid-area: fd;
   width: 100%;
-  height: 65vh;
+  height: 55vh;
+  margin-top: 20px;
 }
 
 #conteneur-citation>blockquote{
@@ -144,6 +145,7 @@ button:active{
   grid-area: cite;
   text-align: center;
   margin: 50px 0 0 50px;
+  padding: 10px;
 }
 
 #auteur{
@@ -151,6 +153,7 @@ button:active{
   margin-left: 50px;
   font-size: 1.5rem;
   margin: 50px 0 0 50px;
+  padding: 5px;
 }
 
 footer{

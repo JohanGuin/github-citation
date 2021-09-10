@@ -78,134 +78,146 @@ let lectureCitations = () => {
     fond.src = "assets/Socrate.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Osho")){
     fond.src = "assets/Osho.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "August Spies"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Lama")){
+    fond.src = "assets/Dalai_Lama.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Spies")){
     fond.src = "assets/August_Spies.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Rosa Luxemburg"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Luxemburg")){
     fond.src = "assets/Rosa_Luxemburg.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Etienne de la Boétie"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Boétie")){
     fond.src = "assets/Etienne_DeLaBoetie.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Sylvain Maréchal"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Maréchal")){
     fond.src = "assets/Sylain_Marechal.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Mikhail Bakounine"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bakounine")){
     fond.src = "assets/Mikhail_Bakounine.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Octave Mirbeau"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Mirbeau")){
     fond.src = "assets/Octave_Mirbeau.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Louise Michel"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Louise Michel")){
     fond.src = "assets/Louise_Michel.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Karl Marx"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Marx")){
     fond.src = "assets/Karl_Marx.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Max Stirner"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Stirner")){
     fond.src = "assets/Max_Stirner.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Herbert Marcuse"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Marcuse")){
     fond.src = "assets/Herbert_Marcuse.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Pierre-Joseph Proudhon"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Proudhon")){
     fond.src = "assets/PierreJoseph_Proudhon.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Pierre Kropotkine"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Kropotkine")){
     fond.src = "assets/Pierre_Kroptokine.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Che Guevara"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Guevara")){
     fond.src = "assets/Che_Guevara.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "William Shakespeare"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Shakespeare")){
     fond.src = "assets/William_Shakespeare.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Emile Zola"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Zola")){
     fond.src = "assets/Emile_Zola.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Mark Twain"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Twain")){
     fond.src = "assets/Mark_Twain.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Albert Camus"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Camus")){
     fond.src = "assets/Albert_Camus.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Marie Curie"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Curie")){
     fond.src = "assets/Marie_Curie.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Marilyn Monroe"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Monroe")){
     fond.src = "assets/Marilyn_Monroe.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Christophe Colomb"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Colomb")){
     fond.src = "assets/Christophe_Colomb.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Walt Disney"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Disney")){
     fond.src = "assets/Walt_Disney.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Paulo Coelho"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Coelho")){
     fond.src = "assets/Paulo_Coelho.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Winston Churchill"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Winston Churchill")){
     fond.src = "assets/Winston_Churchill.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Mère Teresa"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Teresa")){
     fond.src = "assets/Mere_Teresa.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Steve Jobs"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Jobs")){
     fond.src = "assets/Steve_Jobs.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Léonard de Vinci"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Vinci")){
     fond.src = "assets/Leonard_DeVinci.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Bob Marley"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Marley")){
     fond.src = "assets/Bob_Marley.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Charlie Chaplin"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Chaplin")){
     fond.src = "assets/Charlie_Chaplin.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Bouddha"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bouddha")){
     fond.src = "assets/Bouddha.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Abbé Pierre"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Abbé Pierre")){
     fond.src = "assets/Abbe_Pierre.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Oscar Wilde"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Wilde")){
     fond.src = "assets/Oscar_Wilde.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Marcel Jouhandeau"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Jouhandeau")){
     fond.src = "assets/Marcel_Jouhandeau.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Johann Wolfgang von Goethe"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Goethe")){
     fond.src = "assets/Goethe.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Les Brown"){
-    fond.src = "assets/Les_Brown.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "AL Evans"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Evans")){
     fond.src = "assets/AL_Evans.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Octave Feuillet"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Feuillet")){
     fond.src = "assets/Octave_Feuillet.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Joel Brown"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Joel Brown")){
     fond.src = "assets/Joel_Brown.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Jean Bies"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Biès")){
     fond.src = "assets/Jean_Bies.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Paul Fort"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Fort")){
     fond.src = "assets/Paul_Fort.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Oliver Goldsmith"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Goldsmith")){
     fond.src = "assets/Oliver_Goldsmith.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Théodore Roosevelt"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Théodore Roosevelt")){
     fond.src = "assets/Theodore_Roosevelt.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Michael Jordan"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Jordan")){
     fond.src = "assets/Michael_Jordan.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Anatole France"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Anatole France")){
     fond.src = "assets/Anatole_France.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Ed Sheeran"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Sheeran")){
     fond.src = "assets/Ed_Sheeran.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Georges Brassens"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Brassens")){
     fond.src = "assets/Georges_Brassens.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Ernest Hemingway"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Hemingway")){
     fond.src = "assets/Ernest_Hemingway.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Pierre Larousse"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Larousse")){
     fond.src = "assets/Pierre_Larousse.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Léon Blum"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Blum")){
     fond.src = "assets/Léon_Blum.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Jules Renard"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Renard")){
     fond.src = "assets/Jules_Renard.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Paul Eluard"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Eluard")){
     fond.src = "assets/Paul_Eluard.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Périclès"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Périclès")){
     fond.src = "assets/Pericles.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Jean-Jacques Rousseau"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Rousseau")){
     fond.src = "assets/JeanJacques_Rousseau.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Simone de Beauvoir"){
-    fond.src = "assets/Simone_DeBeauvoir.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "sagesse hindoue"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("hindoue")){
     fond.src = "assets/sagesse_hindoue.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Mikao Usui"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Usui")){
     fond.src = "assets/Mikao_Usui.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Bill Cosby"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Cosby")){
     fond.src = "assets/Bill_Cosby.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Voltaire"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Voltaire")){
     fond.src = "assets/Voltaire.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "inconnu"){
-    fond.src = "assets/Inconnu.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Molière"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu01")){
+    fond.src = "assets/Inconnu01.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu02")){
+    fond.src = "assets/Inconnu02.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu03")){
+    fond.src = "assets/Inconnu03.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu04")){
+    fond.src = "assets/Inconnu04.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu05")){
+    fond.src = "assets/Inconnu05.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu06")){
+    fond.src = "assets/Inconnu06.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu07")){
+    fond.src = "assets/Inconnu07.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu08")){
+    fond.src = "assets/Inconnu08.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu09")){
+    fond.src = "assets/Inconnu09.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Molière")){
     fond.src = "assets/Moliere.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Wayne Gretzky"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Gretzky")){
     fond.src = "assets/Wayne_Gretzky.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Henry Miller"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Miller")){
     fond.src = "assets/Henry_Miller.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Marguerite_Yourcenar"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Yourcenar")){
     fond.src = "assets/Marguerite_Yourcenar.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Carl Jung"){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Jung")){
     fond.src = "assets/Carl_Jung.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur === "Serena Santorelli"){
-    fond.src = "assets/Serena_Santorelli.jpg";
   }
 
   conteneurCitation.append(cite);
