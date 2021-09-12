@@ -1,5 +1,9 @@
 "use strict";
 
+/*Fichier utilitaire servant à y écrire les citations et les informations pouvant être utiles pour d'autres fichiers.
+Ce fichier ne contient qu'un grand tableau.
+*/
+
 const citations = [
   {
     texte: "Si vous voulez vivre une vie heureuse, attachez-la à un but, et non pas à des personnes ou à des choses.",

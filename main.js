@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-  Programme affichant des citations de personnes célèbres avec quelques options pour l'utilisateur qui pourra choisir un thème.
+  Programme affichant des citations de personnes célèbres avec quelques options pour l'utilisateur qui pourra choisir un thème, sélectionner par l'intermediaire de choix ecrits dans une barre de recherche...
 */
 
 const boutons = document.querySelectorAll("button");
@@ -14,11 +14,15 @@ let debutRandomCitation = null;
 
 // Remplissage des options du tableau suite aux choix de l'utilisateur
 let remplirTab = (mot) => {
-  const tabMots = mots.value.split();
+  const tabMots = new RegExp(mots.value, "ig");
   choixUtilisateur = [];
 
+/*
+Utilisation d'un regex pour permettre la recherche des mots ecrits par l'utilisateur dans les types de citations choisies
+Ensuite, je demande qu'a partir de ce type de citations, il trouve toutes les citations avec éventuellement, cet auteur ou ses termes
+*/
   for(let i = 0; i < citations.length; i++){
-    if((citations[i].auteur.includes(tabMots) || citations[i].texte.includes(tabMots)) && citations[i].categorie.includes(mot)){
+    if((tabMots.test(citations[i].auteur) || tabMots.test(citations[i].texte)) && citations[i].categorie.includes(mot)){
       choixUtilisateur.push(citations[i]);
     }
   }
@@ -253,19 +257,47 @@ function buttonChoixUser(){
       console.log(err);
     }
   }else if(this.id === "bon"){
-    remplirTab("bonheur");
+    try{
+      remplirTab("bonheur");
+    }catch(err){
+      console.log(err);
+    }
   }else if(this.id === "cou"){
-    remplirTab("courage");
+    try{
+      remplirTab("courage");
+    }catch(err){
+      console.log(err);
+    }
   }else if(this.id === "lib"){
-    remplirTab("liberte");
+    try{
+      remplirTab("liberte");
+    }catch(err){
+      console.log(err);
+    }
   }else if(this.id === "sag"){
-    remplirTab("sagesse");
+    try{
+      remplirTab("sagesse");
+    }catch(err){
+      console.log(err);
+    }
   }else if(this.id === "mor"){
-    remplirTab("morale");
+    try{
+      remplirTab("morale");
+    }catch(err){
+      console.log(err);
+    }
   }else if(this.id === "rev"){
-    remplirTab("reve");
+    try{
+      remplirTab("reve");
+    }catch(err){
+      console.log(err);
+    }
   }else{
-    remplirTab("sensibilite");
+    try{
+      remplirTab("sensibilite");
+    }catch(err){
+      console.log(err);
+    }
   }
   lectureCitations();
 }
