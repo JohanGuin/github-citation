@@ -67,16 +67,17 @@ main{
 }
 
 .conteneur-options{
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr) 2fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-  "tous tous bon"
-  "cou lib sag"
-  "mor rev sen";
+  "tous tous bon fo"
+  "cou lib sag fo"
+  "mor rev sen er";
   gap: 3px;
+  perspective: 100px;
 }
 
 #tous{
@@ -115,16 +116,37 @@ button:active{
   color: var(--color1);
 }
 
+form{
+  grid-area: fo;
+  background-color: var(--color2);
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color1);
+  color: var(--color3);
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid var(--color2);
+  outline: none;
+}
+
 #conteneur-citation{
   font-family: "Oswald", sans-serif;
   background-color: var(--color3);
   width: 80%;
-  height: 60vh;
+  height: 65vh;
   margin: 10px auto;
   perspective: 100px;
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1.75fr;
+  grid-template-columns: 1fr 1.85fr;
   grid-template-rows: 1fr 1.75fr;
   grid-template-areas:
   "fd cite"
@@ -179,5 +201,75 @@ footer{
   to{
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+#Aff-Erreur{
+  position: absolute;
+  width: 80%;
+  left: 5%;
+  opacity: 0;
+  grid-area: er;
+  z-index: 5000;
+  color: var(--color3);
+  font-size: 1.5rem;
+  background-color: var(--color1);
+  text-align: center;
+  border-radius: 20px;
+}
+
+@keyframes afficheErreur{
+  50%{
+    opacity: 1;
+    transform: translateZ(10px);
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .conteneur-options{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+    "tous bon"
+    "cou lib"
+    "sag mor"
+    "rev sen"
+    "fo fo"
+    "er er";
+  }
+  #conteneur-citation{
+    width: 100%;
+    height: 150vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "fd fd"
+    "cite cite"
+    "aut aut";
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  .conteneur-options{
+    width: 80%;
+    height: 20vh;
+  }
+  #conteneur-citation{
+    grid-template-columns: 1fr 1fr;
+  }
+  @keyframes afficheErreur{
+    50%{
+      opacity: 1;
+      transform: translateZ(7px);
+    }
+    to{
+      opacity: 0;
+    }
   }
 }

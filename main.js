@@ -6,6 +6,7 @@
 
 const boutons = document.querySelectorAll("button");
 const conteneurCitation = document.getElementById("conteneur-citation");
+const mots = document.getElementById("mots");
 
 // tableau ou seront entré toutes les citations possibles en fonction du choix de l'utilisateur
 let choixUtilisateur = [];
@@ -13,21 +14,23 @@ let debutRandomCitation = null;
 
 // Remplissage des options du tableau suite aux choix de l'utilisateur
 let remplirTab = (mot) => {
+  const tabMots = mots.value.split();
   choixUtilisateur = [];
-  if(mot){
-    for(let i = 0; i < citations.length; i++){
-      if(citations[i].categorie.includes(`${mot}`)){
-        choixUtilisateur.push(citations[i]);
-      }
+
+  for(let i = 0; i < citations.length; i++){
+    if((citations[i].auteur.includes(tabMots) || citations[i].texte.includes(tabMots)) && citations[i].categorie.includes(mot)){
+      choixUtilisateur.push(citations[i]);
     }
   }
-}
-
-let lienWiki = () => {
-  const lienAffichage = document.querySelector("nav ul li");
-  const lienUn = document.createElement("a");
-  lienUn.src = choixUtilisateur[debutRandomCitation].lien;
-  console.log(lienUn);
+  if(choixUtilisateur.length === 0){
+    const conteneurOptions = document.querySelector(".conteneur-options");
+    const afficheErreur = document.createElement("span");
+    afficheErreur.id = "Aff-Erreur";
+    afficheErreur.textContent = "Je ne trouve ce terme";
+    conteneurOptions.append(afficheErreur);
+    afficheErreur.style.animation = "afficheErreur 10s ease-in-out";
+    choixUtilisateur = [...citations];
+  }
 }
 
 let lectureCitations = () => {
@@ -190,24 +193,6 @@ let lectureCitations = () => {
     fond.src = "assets/Bill_Cosby.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Voltaire")){
     fond.src = "assets/Voltaire.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu01")){
-    fond.src = "assets/Inconnu01.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu02")){
-    fond.src = "assets/Inconnu02.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu03")){
-    fond.src = "assets/Inconnu03.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu04")){
-    fond.src = "assets/Inconnu04.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu05")){
-    fond.src = "assets/Inconnu05.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu06")){
-    fond.src = "assets/Inconnu06.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu07")){
-    fond.src = "assets/Inconnu07.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu08")){
-    fond.src = "assets/Inconnu08.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("inconnu09")){
-    fond.src = "assets/Inconnu09.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Molière")){
     fond.src = "assets/Moliere.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Gretzky")){
@@ -218,6 +203,18 @@ let lectureCitations = () => {
     fond.src = "assets/Marguerite_Yourcenar.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Jung")){
     fond.src = "assets/Carl_Jung.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Aurèle")){
+    fond.src = "assets/Marc_Aurele.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Epictète")){
+    fond.src = "assets/Epictete.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Platon")){
+    fond.src = "assets/Platon.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Rûmî")){
+    fond.src = "assets/Rumi.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Sénèque")){
+    fond.src = "assets/Seneque.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Frost")){
+    fond.src = "assets/Robert_Frost.jpg";
   }
 
   conteneurCitation.append(cite);
@@ -228,7 +225,6 @@ let lectureCitations = () => {
   cite.style.animation = "afficheCitation 5s";
   auteur.style.animation = "afficheCitation 5s";
   fond.style.animation = "animFond 5s";
-  auteur.addEventListener("click", lienWiki);
   boutons.forEach((bouton) => {
     bouton.addEventListener("click", () => {
       cite.remove();
@@ -251,7 +247,11 @@ function buttonChoixUser(){
   sen.classList.remove("button-true");
   this.classList.add("button-true");
   if(this.id === "tous"){
-    choixUtilisateur = [...citations];
+    try{
+      remplirTab("tous");
+    }catch(err){
+      console.log(err);
+    }
   }else if(this.id === "bon"){
     remplirTab("bonheur");
   }else if(this.id === "cou"){
