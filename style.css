@@ -53,7 +53,8 @@ h1{
 }
 
 main{
-  background-color: var(--color3);
+  /* background-color: var(--color3); */
+  background-image: linear-gradient(90deg, var(--color2) -40%, var(--color3), var(--color2) 140%);
   overflow: hidden;
   padding-top: 20px;
 }
@@ -139,7 +140,7 @@ input[type="text"]{
 
 #conteneur-citation{
   font-family: "Oswald", sans-serif;
-  background-color: var(--color3);
+  align-items: center;
   width: 80%;
   height: 65vh;
   margin: 10px auto;
@@ -172,7 +173,6 @@ input[type="text"]{
 
 #auteur{
   grid-area: aut;
-  margin-left: 50px;
   font-size: 1.5rem;
   margin: 50px 0 0 50px;
   padding: 5px;
@@ -196,11 +196,11 @@ footer{
 @keyframes afficheCitation{
   from{
     opacity: 0;
-    transform: translateX(2000px);
+    transform: translateX(2000px) translateY(1500px);
   }
   to{
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0) translateY(0);
   }
 }
 
@@ -228,7 +228,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
   .conteneur-options{
     width: 100%;
     margin: 0 auto;
@@ -247,21 +247,47 @@ footer{
     width: 100%;
     height: 150vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     grid-template-areas:
-    "fd fd"
     "cite cite"
+    "fd fd"
     "aut aut";
+    align-items: start;
+  }
+  #conteneur-citation>blockquote{
+    /* position: relative; */
+    /* bottom: 20px; */
+    margin: 10px 0 0 10px;
+    padding: 10px;
+  }
+  #auteur{
+    position: relative;
+    bottom: 100px;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+  }
+  @keyframes animFond{
+    from{
+      transform: translateZ(250px) translateY(1050px);
+      opacity: 0;
+    }
+    to{
+      transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
+@media screen and (min-width: 601px) and (max-width: 1280px){
   .conteneur-options{
     width: 80%;
-    height: 20vh;
   }
   #conteneur-citation{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.25fr 1fr;
+    grid-template-areas:
+    "fd cite"
+    "fd cite"
+    "aut aut";
+    height: 80vh;
   }
   @keyframes afficheErreur{
     50%{
@@ -270,6 +296,16 @@ footer{
     }
     to{
       opacity: 0;
+    }
+  }
+  @keyframes animFond{
+    from{
+      transform: translateZ(250px) translateY(1000px);
+      opacity: 0;
+    }
+    to{
+      transform: translateZ(0) translateY(0);
+      opacity: 1;
     }
   }
 }

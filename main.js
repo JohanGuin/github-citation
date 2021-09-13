@@ -219,6 +219,16 @@ let lectureCitations = () => {
     fond.src = "assets/Seneque.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Frost")){
     fond.src = "assets/Robert_Frost.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Char")){
+    fond.src = "assets/Rene_Char.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Schopenhauer")){
+    fond.src = "assets/Arthur_Schopenhauer.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Orwell")){
+    fond.src = "assets/George_Orwell.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Montesquieu")){
+    fond.src = "assets/Montesquieu.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Sartre")){
+    fond.src = "assets/Jean_Paul_Sartre.jpg";
   }
 
   conteneurCitation.append(cite);

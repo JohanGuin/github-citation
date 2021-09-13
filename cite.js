@@ -1791,6 +1791,56 @@ const citations = [
     categorie: ["tous"],
   },
   {
+    texte: "Quelle est la différence entre \"je t'adore\" et \"je t'aime\"? Bouddha y'a magnifiquement répondu: Quand vous adorez une fleur, vous l'arrachez. Mais quand vous aimez une fleur, vous l'arrosez tous les jours. Celui qui comprend ça, comprend la vie...",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Dans la vie, nous ne pouvons échapper au changement ou à la perte; la liberté et le bonheur sont à la mesure de la souplesse et de l'aisance avec lesquelles nous accueillons le changement.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Si tu laisses reposer une eau boueuse, elle s'eclaircira; de même, si tu laisses reposer ton esprit troublé, la chose à faire t'apparaîtra clairement.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Chaque matin, nous renaissons à nouveau, ce que nous faisons aujourd'hui est ce qui importe le plus.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Quelles qu'aient été les difficultés du passé, tu peux toujours recommencer à zéro aujourd'hui.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "De même que le serpent se défait de sa peau, nous devons constamment nous défaire de notre passé.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Celui qui est maître de lui-même est plus grand que celui qui est le maître du monde.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La paix vient de l'intérieur, ne la cherchez pas à l'extérieur.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Il n'y a pas de feu plus féroce que l'envie et la haine.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "bonheur", "morale"],
+  },
+  {
+    texte: "Ne crois pas ce que je te dis, ne rejette pas ce que je te dis; ce qui restera sera ta vérité.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
     texte: "La vie peut-être merveilleuse si on n'en a pas peur.",
     auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
     categorie: ["tous", "courage"],
@@ -2014,6 +2064,11 @@ const citations = [
     texte: "Il faut prendre des risques. Nous ne comprenons vraiment le miracle de la vie que lorsque nous laissons arriver l'inattendu.",
     auteur: "Paulo Coelho né en 1947 est un romancier et journaliste qui connait une renommée internationale depuis la publication de l'Alchimiste.",
     categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "Personne ne peut retourner en arrière, mais tout le monde peut aller de l'avant. Et demain, quand le soleil se lévera, il suffira de se répéter: je vais regarder cette journée comme si c'était la première de ma vie.",
+    auteur: "Paulo Coelho né en 1947 est un romancier et journaliste qui connait une renommée internationale depuis la publication de l'Alchimiste.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Si vous pouvez le rêver, vous pouvez le faire.",
@@ -3085,5 +3140,235 @@ const citations = [
     texte: "En trois mots, je peux résumer tout ce que j'ai appris sur la vie. Continuez vers l'avant.",
     auteur: "Robert Frost(1874-1963) est un poète américain.",
     categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Il n'y a que deux conduites dans la vie: ou on la rêve ou on l'accomplit.",
+    auteur: "René Char(1907-1988) est un poète et un résistant français.",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "L'essentiel pour le bonheur de la vie, c'est ce que l'on a en soi-même.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "bonheur", "courage"],
+  },
+  {
+    texte: "Toutes les richesses ne sauraient satisfaire n caractère avide, envieux et méchant.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Ce n'est le plus souvent que la perte des choses qui nous en enseigne la valeur.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Il ne faut pas empiéter sur l'avenir en demandant avant le temps ce qui ne peut venir qu'avec le temps.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Le monde dans lequel chacun vit dépend de sa façon de le concevoir.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Un homme d'esprit, dans la solitude la plus absolue, trouve dans ses propres pensées et dans sa propre fantaisie de quoi se divertir agréablement.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Vaincre des obstacles est la plénitude de la jouissance dans l'existence humaine.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Trés peu de gens savent réfléchir, mais tous veulent avoir des opinions.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Tout ce qui est exquis mûrit lentement.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "courage", "sen"],
+  },
+  {
+    texte: "La compassion à l'égard des animaux est si étroitement liée à la bonté du caractère qu'on peut affirmer qu'un homme cruel envers les animaux, ne saurait être un homme bon.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "L'homme est le seul animal qui en fait souffrir d'autres sans autre but que celui-là.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les lettrés sont ceux qui ont lu dans les livres; mais les penseurs, les génies, les flambeaux de l'humanité et les pionniers de la race humaine sont ceux qui ont lu directement dans le livre de l'univers.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le destin mêle les cartes en nous jouons.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La condition première pour être heureux dans la vie, c'est d'accepter d'être ce que nous sommes.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Attribuer une haute valeur à l'opinion des hommes, c'est leur faire trop d'honneur.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "On ne peut-être vraiment soi qu'aussi longtemps qu'on est seul; qui n'aime donc pas la solitude n'aime pas la liberté.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Les grands hommes sont comme des aigles et constuisent leur nid sur un noble solitude.",
+    auteur: "Arthur Schopenhauer(1788-1860) est un philosophe allemand qui a eu une influence importante et a publié en 1819. \"Le monde comme volonté et comme représentation\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "On n'établit pas une dictature pour sauvegarder une révolution. On fait une révolution pour établir une dictature.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Jamais personne ne s'empare du pouvoir avec l'intention d'y renoncer.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte", "sagesse"],
+  },
+  {
+    texte: "Il y'a partout la même structure pyramidale, le même système économique existant par et pour une guerre continuelle.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Si vous vous accrochez à la vérite, même contre le monde entier, vous n'êtes pas fou.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Le progrès dans notre monde sera le progrès vers plus de souffrance.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Le pouvoir consiste à déchirer les esprits humains en morceaux et à les reconstituer dans de nouvelles formes.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte", "morale"],
+  },
+  {
+    texte: "Le ministère de la Paix s'occupe de la guerre, le ministère de la vérité des mensonges, le ministère de l'amour de la torture et le ministère de l'abondance de la famine.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Comment un homme peut-il affirmer son pouvoir sur un autre? En le faisant souffrir. L'obéissance ne suffit pas.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte", "morale"],
+  },
+  {
+    texte: "Tant qu'ils ne deviendront pas conscients, ils ne se rebelleront jamais, et tant qu'ils ne se seront pas rebellés, ils ne pourront pas devenir conscients.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Le passé a été effacé, l'effacement a été oublié, le mensonge est devenu la vérité.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "A une époque de supercherie universelle, dire la vérité est un acte révolutionnaire.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Les masses ne se révoltent jamais de leur propre mouvement et elles ne se révoltent jamais par le seul fait qu'elles soient opprimées. Aussi longtemps qu'elles n'ont pas d'élément de comparaison. Elles ne se rendent jamais compte qu'elles sont opprimées.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Pour que l'égalité humaine soit à jamais écartée, pour les grands, comme nous les avons appelés, gardent perpétuellement leurs places. La condition mentale dominante doit être la folie dirigée.",
+    auteur: "George Orwell(1903-1950) est un écrivain, essayiste et journaliste britannique célèbre pour avoir publié \"1984\".",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Il faudrait convaincre les hommes du bonheur qu'ils ignorent, lors même qu'ils en jouissent.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Une injustice faite à un seul est une menace faîte à tous.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "La tristesse vient de la solitude du coeur.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous", "sen"],
+  },
+  {
+    texte: "Une chose n'est pas juste parce qu'elle est loi; mais elle doit être loi parce qu'elle est juste.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Si on ne voulait qu'être heureux, cela serait bientôt fait. Mais on veut être plus heureux que les autres, et cela est presque toujours impossible parce que nous croyons les autres plus heureux qu'ils ne le sont.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "C'est un malheur qu'il y'ait trop peu d'intervalle entre le temps où l'on est trop jeune, et le temps où l'on est trop vieux.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Qui connaît bien le prix d'un véritable ami passe sa vie à le chercher.",
+    auteur: "Montesquieu(1689-1755) est un philosophe et écrivain français des lumières. Il est à l'origine de grands ouvrages dont \"l'Esprit des lois\" écrit en 1748.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Quand les riches se font la guerre, ce sont les pauvres qui meurent.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "L'homme n'est rien d'autre que son projet, il n'existe que dans la mesure où il se réalise, il n'est donc rien d'autre que l'ensemble de ses actes, rien d'autre que sa vie.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Je peux toujours choisir, mais je dois savoir que si je ne choisis pas, je choisis encore.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "C'est dans l'action, voire dans l'urgence de la situation que je peux me rendre compte si je suis courageux.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Quant aux hommes, ce n'est pas ce qu'ils sont qui m'intéresse mais ce qu'ils pourront devenir.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Je ne puis prendre ma liberté pour but, que si je prends également celle des autres pour but.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "La violence, sous quelque forme qu'elle se manifeste, est un échec.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Dans la vie on ne fait pas toujours ce que l'on veut, mais on est toujours responsable de ce que l'ont est.",
+    auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
+    categorie: ["tous", "courage", "sagesse"],
   },
 ];
