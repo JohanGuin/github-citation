@@ -60,7 +60,7 @@ let lectureCitations = () => {
     fond.src = "assets/Aldous_Huxley.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Aristote")){
     fond.src = "assets/Aristote.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Franklin")){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Benjamin Franklin")){
     fond.src = "assets/Benjamin_Franklin.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Confucius")){
     fond.src = "assets/Confucius.jpg";
@@ -94,7 +94,7 @@ let lectureCitations = () => {
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Boétie")){
     fond.src = "assets/Etienne_DeLaBoetie.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Maréchal")){
-    fond.src = "assets/Sylain_Marechal.jpg";
+    fond.src = "assets/Sylvain_Marechal.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bakounine")){
     fond.src = "assets/Mikhail_Bakounine.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Mirbeau")){
@@ -233,7 +233,7 @@ let lectureCitations = () => {
     fond.src = "assets/Romain_Rolland.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("jiddu")){
     fond.src = "assets/Jiddu_Krishnamurti.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Delano Roosevelt")){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Delano")){
     fond.src = "assets/FDRoosevelt.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Morrison")){
     fond.src = "assets/Jim_Morrison.jpg";
@@ -244,9 +244,9 @@ let lectureCitations = () => {
   conteneurCitation.append(fond);
   cite.textContent = "\" " + choixUtilisateur[debutRandomCitation].texte + " \"";
   auteur.textContent = choixUtilisateur[debutRandomCitation].auteur;
-  cite.style.animation = "afficheCitation 5s";
-  auteur.style.animation = "afficheCitation 5s";
-  fond.style.animation = "animFond 5s";
+  cite.style.animation = "afficheCitation 3.5s";
+  auteur.style.animation = "afficheCitation 3.5s";
+  fond.style.animation = "animFond 3s";
   boutons.forEach((bouton) => {
     bouton.addEventListener("click", () => {
       cite.remove();

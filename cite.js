@@ -416,6 +416,11 @@ const citations = [
     categorie: ["tous", "morale", "reve"],
   },
   {
+    texte: "Il faut accepter les déceptions passagères, mais conserver l'espoir pour l'éternité.",
+    auteur: "Martin Luther King(1929-1968) est un pasteur et un militant pour les droits civiques, la paix et la lutte contre la pauvreté. Il mena une lutte non-violente et fini assassiné officiellement par James Earl Ray.",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
     texte: "Vous pouvez avec certitude amèliorer un seul petit coin de l'univers: vous-même.",
     auteur: "Aldous Huxley(1894-1963) est un écrivain et philosophe ayant écrit une cinquantaine de romans dont le célébre \"Le Meilleur des mondes\".",
     categorie: ["tous", "sagesse"],
@@ -516,7 +521,7 @@ const citations = [
     categorie: ["tous", ],
   },
   {
-    texte: "La dictature parfaite serait une dictature qui aurait les apparences de la démocratie, une prison sans murs dont les prisonnier ne songeraient pas à s'évader, un système d'esclavage oû, grâce à la consommation et au divertissement, les esclaves auraient l'amour de leur servitude.",
+    texte: "La dictature parfaite serait une dictature qui aurait les apparences de la démocratie, une prison sans murs dont les prisonniers ne songeraient pas à s'évader, un système d'esclavage oû, grâce à la consommation et au divertissement, les esclaves auraient l'amour de leur servitude.",
     auteur: "Aldous Huxley(1894-1963) est un écrivain et philosophe ayant écrit une cinquantaine de romans dont le célébre \"Le Meilleur des mondes\".",
     categorie: ["tous", "liberte"],
   },
@@ -609,6 +614,11 @@ const citations = [
     texte: "Eduquer l'esprit sans éduquez le coeur n'est pas éduquer du tout.",
     auteur: "Aristote(384-322 avant notre ère) est un philosophe grec et l'un des penseurs les plus influents que le monde ait connu.",
     categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Le courage est un juste milieu entre la peur et l'audace.",
+    auteur: "Aristote(384-322 avant notre ère) est un philosophe grec et l'un des penseurs les plus influents que le monde ait connu.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Aimes-tu la vie ? Alors ne gaspille pas ton temps, car il est l'essence de la vie.",
@@ -1866,9 +1876,9 @@ const citations = [
     categorie: ["tous", "morale"],
   },
   {
-    texte: ".",
+    texte: "Détermination et espoir sont les facteurs clés d'un meilleur avenir.",
     auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
-    categorie: ["tous"],
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Rappellez-vous que le silence est parfois la meilleure réponse.",
@@ -2036,7 +2046,7 @@ const citations = [
     categorie: ["tous", "sagesse"],
   },
   {
-    texte: "Les chiens et le chats arrivent à vivre ensemble, alors qu'est ce qui cloche chez toi, mon frère ?",
+    texte: "Les chiens et les chats arrivent à vivre ensemble, alors qu'est ce qui cloche chez toi, mon frère ?",
     auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
     categorie: ["tous", "morale"],
   },
@@ -2196,6 +2206,11 @@ const citations = [
   },
   {
     texte: "Il y'a toujours puisque je le dis, puisque je l'affirme, au bout du chagrin, une fenêtre ouverte.",
+    auteur: "Mère Teresa(1910-1997) est une religieuse catholique qui a été prix nobel de la paix en 1979. Pendant plus de 40 ans, elle consacre sa vie aux pauvres et aux malades.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Sois fidèle dans les petites choses parce que c'est en elle que ta force réside.",
     auteur: "Mère Teresa(1910-1997) est une religieuse catholique qui a été prix nobel de la paix en 1979. Pendant plus de 40 ans, elle consacre sa vie aux pauvres et aux malades.",
     categorie: ["tous", "courage"],
   },
@@ -2861,6 +2876,11 @@ const citations = [
     categorie: ["tous", "bonheur"],
   },
   {
+    texte: "Ceux qui manquent de courage ont toujours une philosophie pour le justifier.",
+    auteur: "Albert Camus(1913-1960) est un écrivain, philosophe et romancier. Il est aussi journaliste militant engagé dans la résistance française et reçoit le prix nobel de littérature en 1957.",
+    categorie: ["tous", "courage"],
+  },
+  {
     texte: "Renoncer à sa liberté c'est renoncer à sa qualité d'homme, aux droits de l'humanité, même à ses devoirs.",
     auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
     categorie: ["tous", "liberte"],
@@ -3081,8 +3101,9 @@ const citations = [
     categorie: ["tous", "sagesse","sensibilite"],
   },
   {
+    texte: "Ce que tu nies te soumet, ce que tu acceptes te transforme.",
     auteur: "Carl Jung(1875-1961) est un psychologue analytique et un penseur influent. Il est l'auteur de nombreux ouvrages.",
-    categorie: ["tous", ],
+    categorie: ["tous", "sagesse"],
   },
   {
     texte: "On ne peut voir la lumière sans l'ombre, on ne peut percevoir le silence sans le bruit, on ne peut atteindre la sagesse sans la folie.",
@@ -3770,4 +3791,3 @@ const citations = [
     categorie: ["tous", "liberte", "sagesse"],
   },
 ];
-Mandela

@@ -197,7 +197,7 @@ footer{
 @keyframes afficheCitation{
   from{
     opacity: 0;
-    transform: translateX(2000px) translateY(1500px);
+    transform: translateX(500px) translateY(1000px);
   }
   to{
     opacity: 1;
