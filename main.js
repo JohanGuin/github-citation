@@ -85,7 +85,7 @@ let lectureCitations = () => {
     fond.src = "assets/Socrate.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Osho")){
     fond.src = "assets/Osho.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Lama")){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("lama")){
     fond.src = "assets/Dalai_Lama.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Spies")){
     fond.src = "assets/August_Spies.jpg";
@@ -229,6 +229,14 @@ let lectureCitations = () => {
     fond.src = "assets/Montesquieu.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Sartre")){
     fond.src = "assets/Jean_Paul_Sartre.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Rolland")){
+    fond.src = "assets/Romain_Rolland.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("jiddu")){
+    fond.src = "assets/Jiddu_Krishnamurti.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Delano Roosevelt")){
+    fond.src = "assets/FDRoosevelt.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Morrison")){
+    fond.src = "assets/Jim_Morrison.jpg";
   }
 
   conteneurCitation.append(cite);

@@ -9,211 +9,186 @@ const citations = [
     texte: "Si vous voulez vivre une vie heureuse, attachez-la à un but, et non pas à des personnes ou à des choses.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "En plein coeur de toute difficulté se cache une possibilité.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "courage", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La seule chose qui fait que la vie mérite d'être vécue, c'est de vivre pour les autres.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur", "morale", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Ce qui faît la vrai valeur d'un être humain, c'est de s'être délivré de son petit moi.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Je dois être prêt à renoncer à ce que je suis pour devenir ce que je serai.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur", "courage"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "N'essayez pas de devenir un homme qui a du succès, essayez de devenir un homme qui a de la valeur.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Rare est le nombre de ceux qui regardent avec leurs propres yeux et qui éprouvent avec leur propre sensibilité.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sensibilite"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Tout ce que est vraiment grand et inspiré a été réalisé par des individus travaillant librement.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "liberte"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Deux choses sont infinies: l'univers et la bêtise humaine. Mais en ce qui concerne l'univers, je n'ai pas de certitude absolue.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Il est plus facile de désintégrer un atome qu'un préjugé.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La logique vous mènera d'un point A à un point B. L'imagination vous emmènera partout.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "reve"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La vie, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "courage"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Le mot progrès n'aura aucun sens tant qu'il y'aura des enfants malheureux.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur", "morale"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Le problème aujourd'hui n'est pas l'énergie atomique, mais le coeur des hommes.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "morale"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Tout le monde est un génie. Mais si on juge un poisson sur sa capacité à grimper à un arbre, il passera sa vie à croire qu'il est stupide.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Une personne qui n'a jamais commis d'erreurs n'a jamais tenté d'innover.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "courage", "liberte"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Le monde ne sera pas détruit par ceux qui font le mal, mais par ceux qui les regardent sans rien faire.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "morale"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Le sort de l'humanité en général sera celui qu'elle méritera.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "morale"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "L'humanité se passionne pour des buts dérisoires. Ils s'appellent la richesse, la gloire, le luxe.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Ce qui compte ne peut pas toujours être compté. Ce qui peut être compté ne compte pas forcément.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Si la vue d'un bureau encombré évoque un esprit encombré, alors que penser d'un bureau vide ?",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", ],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Pour être un membre irréprochable d'une communauté de moutons, il faut avant tout être soi-même un mouton.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "liberte"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Inventer, c'est penser à côté.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "liberte", "reve"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Les grands esprits ont toujours dû affronter une opposition violente de la part des esprits médiocres.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "courage", "liberte"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Ne fais jamais rien contre ta conscience, même si l'Etat te le demande.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "liberte", "morale"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La liberté consiste à se discipliner au lieu de se laisser discipliner.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "liberte", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "C'est la personne humaine, libre, créatrice et sensible qui façonne le beau et le sublime, alors que les masses restent entraînées dans une ronde infernale d'imbécillité et d'abrutissement.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "liberte", "courage", "sensibilite"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La joie de regarder et de comprendre est le plus beau cadeau de la nature.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "bonheur", "sensibilite"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Il n'y a pas d'échec, il n'y a que des abandons.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "courage"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "C'est le devoir de chaque homme de rendre au moins autant qu'il en a reçu.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", ],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La folie, c'est de refaire la même chose et d'en attendre un résultat différent.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Un problème sans solution est un problème mal posé.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "La valeur d'un homme tient dans sa capacité à donner et non dans sa capacité à recevoir.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "morale"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Si une idée ne paraît pas d'abord absurde, alors il n'y aucun espoir qu'elle devienne quelque chose.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", ],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
   },
   {
     texte: "Les personnes faibles se vengent. Les personnes fortes pardonnent. Les personnes intelligentes ignorent.",
     auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
     categorie: ["tous", "sagesse"],
-    lien: "https://fr.wikipedia.org/wiki/Albert_Einstein",
+  },
+  {
+    texte: "Si tu fais toujours ce que tu as l'habitude de faire, tu récolteras ce que tu as toujours récolté.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "courage", "sagesse"],
+  },
+  {
+    texte: "Il n'existe que deux façons de vivre votre vie. L'une comme si rien n'était un miracle. L'autre comme si tout était un miracle.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "courage", "sagesse"],
   },
   {
     texte: "Les médias sont les entités les plus puissantes sur terre. Ils ont le pouvoir de rendre les innocents coupables et faire des coupables des innocents, et c'est ça le pouvoir. Parce qu’ils contrôlent l’esprit des masses.",
@@ -806,6 +781,16 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "Choisis un travail que tu aimes et tu n'auras jamais à travailler un seul jour de ta vie.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse", "reve"],
+  },
+  {
+    texte: "Celui qui déplace la montagne, c'est celui qui commence par enlever les petites pierres.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "courage"],
+  },
+  {
     texte: "Deviens qui tu es! Fais ce que toi seul peux faire.",
     auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
     categorie: ["tous", "bonheur", "courage"],
@@ -911,6 +896,11 @@ const citations = [
     categorie: ["tous", "liberte"],
   },
   {
+    texte: "Ce qui ne tue pas rend plus fort.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "courage"],
+  },
+  {
     texte: "Si chacun ne conservait que ce dont il a besoin, nul ne manquerait de rien, et chacun se contenterait de ce qu'il a.",
     auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
     categorie: ["tous", "sagesse", "morale"],
@@ -1009,6 +999,11 @@ const citations = [
     texte: "Je ne veux, pour rien au monde, étouffer cette petite voix qu'est ma conscience, ou l'expression de ce qu'il y'a de plus profond en moi.",
     auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
     categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Il est facile de se tenir avec la foule. Il faut du courage pour rester seul.",
+    auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "L'amour ignore sa profondeur jusqu'a l'heure de la séparation.",
@@ -1213,7 +1208,7 @@ const citations = [
   {
     texte: "Fais ce que tu crois juste, selon ton coeur, car on te critiquera de toute façon.",
     auteur: "Eleanor Roosevelt(1884-1962) est une personnalité politique et une militante. Elle a eu un impact sur la décision des Etats-Unis de se lancer dans la seconde guerre mondiale et défendait les droits civique.",
-    categorie: ["tous", "courage", "liberte"],
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Les grands esprits discutent des idées; les esprits moyens discutent des événements; les petits esprits discutent des gens.",
@@ -1377,112 +1372,112 @@ const citations = [
   },
   {
     texte: "J'ai appris que le courage n'est pas l'absence de peur, mais la capacité de la vaincre.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "courage"],
   },
   {
     texte: "Un gagnant est juste un rêveur qui n'a jamais cédé.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "reve"],
   },
   {
     texte: "Cela semble toujours impossible jusqu'à ce qu'on le fasse.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "courage"],
   },
   {
     texte: "L'éducation est l'arme la plus puissante pour changer le monde.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Une tête bien faite et un bon coeur forment toujours une formidable combinaison.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", ],
   },
   {
     texte: "Prenez sur vous, où que vous viviez, de donner de la joie et de l'espoir autour de vous.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "bonheur"],
   },
   {
     texte: "La bonté de l'homme est une flamme qu'on peut cacher mais qu'on ne peut jamais éteindre.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Aucun de nous, en agissant seul, ne peut atteindre le succès.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Vous obtiendrez plus dans ce monde avec le pardon qu'avec des actes de représailles.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Je ne suis pas vraiment libre si je prive quelqu'un d'autre de sa liberté. L'opprimé et l'oppresseur sont tous deux dépossédés de leur humanité.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "liberte", "morale"],
   },
   {
     texte: "Que vos choix reflétent vos espoirs et non vos peurs.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "courage"],
   },
   {
     texte: "Nous devons utiliser le temps à bon escient et nous rendre compte qu'il est toujours temps de faire le bien.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "morale"],
   },
   {
     texte: "Que règne la liberté. Car jamais le soleil ne s'est couché sur réalisation humaine plus glorieuse.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "liberte"],
   },
   {
     texte: "Etre libre, ce n'est pas seulement se débarasser de ses chaînes; c'est vivre d'une façon qui respecte et renforce la liberté des autres.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "liberte"],
   },
   {
     texte: "Tout homme ou toute institution qui essaiera de me voler ma dignité perdra.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "liberte", "morale"],
   },
   {
     texte: "L'honneur appartient à ceux qui jamais ne s'éloignent de la vérité, même dans l'obscurité et la difficulté.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", ],
   },
   {
     texte: "En faisant scintiller notre lumière, nous offrons aux autres la possibilité d'en faire autant.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", ],
   },
   {
     texte: "Jamais cette terre qui est si belle ne devrait connaître l'oppression d'un homme par un autre.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "liberte", "morale"],
   },
   {
     texte: "Refuser leurs droits aux hommes rivient à contester l'essence de leur humanité.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "morale"],
   },
   {
     texte: "Ce qui compte dans la vie, ce n'est pas seulement d'avoir vécu. C'est la différence faîte dans la vie des autres qui définit le sens de la vie que nous avons menée.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "morale"],
   },
   {
     texte: "Je ne perds jamais. Soit je gagne, soit j'apprends.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Le pardon libère l'âme, élimine la peur. C'est pourquoi il est une arme si puissante.",
-    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999. Il a lutté pacifiquement contre l'apartheid et fut emprisonné durant sa vie.",
+    auteur: "Nelson Mandela(1918-2013) est un avocat qui est devenu président de la République d'Afrique du Sud de 1994 à 1999.",
     categorie: ["tous", "sagesse", "morale"],
   },
   {
@@ -1491,7 +1486,7 @@ const citations = [
     categorie: ["tous", "bonheur"],
   },
   {
-    texte: "Quand on se suffit à sou-même, on arrive à posséder ce bien inestimable qu'est la liberté.",
+    texte: "Quand on se suffit à soi-même, on arrive à posséder ce bien inestimable qu'est la liberté.",
     auteur: "Epicure(342-270 avant notre ère) est un philosophe grec qui a fondé l'épicurisme qui a pour but principal l'atteinte du bonheur.",
     categorie: ["tous", "liberte"],
   },
@@ -1731,6 +1726,156 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "Si tu veux connaître quelqu'un, n'écoute pas ce qu'il dit, mais regarde ce qu'il fait.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Si vous avez l'impression d'être trop petit pour pouvoir changer quelque chose, essayez donc de dormir avec un moustique et vous verrez lequel des deux empêche l'autre de dormir.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "J'appelle l'amour et la compassion une religion universelle. Telle est ma religion.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Nul besoin de temples, nul besoin de philosophies compliquées. Notre cerveau et notre coeur sont nos temples.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Il y'a deux jours dans une année où l'on ne peut rien faire. Ils s'appellent hier et demain. Aujourd'hui est le jour idéal pour aimer, croire, faire et surtout vivre.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "courage", "sagesse"],
+  },
+  {
+    texte: "Chacun à la responsabilité de faire croître la paix en lui afin que la paix devienne générale.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Nous appartenons tous à la grande famille humaine.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Pour jouir d'une vie heureuse et accomplie, la clé est l'état d'esprit. C'est là l'essentiel.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "bonheur", "courage"],
+  },
+  {
+    texte: "Certains regardent la vase au fond de l'étang, d'autres contemplent la fleur à la surface de l'eau, il s'agit d'un choix.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le vrai bonheur ne dépend d'aucun être, d'aucun objet extérieur. Il ne dépend que de nous.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Ne laissez pas le comportement des autres détruire votre paix intérieure.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "On s'intéresse à ses membres comme parties de son corps, pourquoi pas aux hommes comme parties de l'humanité ?",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Si vous le pouvez, mettez-vous au service des autres. Sinon, abstenez-vous de leur faire du mal.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Nos véritables ennemis sont les poisons mentaux: l'ignorance, la haine, la jalousie, l'orgueil.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'esprit c'est comme un parachute. Ca marche mieux quand c'est ouvert.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Il n'importe pas qu'un être soit croyant ou non: il est plus important qu'il soit bon.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Le chemin vers le bonheur, c'est l'altruisme. Le désir d'être au service du bien-être des autres.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "bonheur", "sagesse"],
+  },
+  {
+    texte: "Nous avons besoin les uns des autres, nous sommes responsables les uns des autres.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le respect mutuel est le fondement de la véritable harmonie.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Vous êtes maître de votre vie et qu'importe votre prison, vous en avez la clé.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Le Monde appartient à l'humanité. Il n'appartient pas à une chef, que ce soit un roi, un prince ou un chef religieux. Le Monde appartient à l'humanité",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "On peut conquérir des milliers d'hommes dans une bataille, mais celui qui se conquiert lui-même, lui seul est le plus noble des conquérants.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "L'important pour les hommes est d'avoir un but dans la vie. Ce but devrait être quelque chose d'utile, quelque chose de bon.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Le bonheur n'est pas une chose toute faîte; il découle de tes propres actions.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "bonheur", "courage"],
+  },
+  {
+    texte: "Plus nous aurons donné de sens à notre vie, moins nous éprouverons de regrets à l'instant de la mort.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Prenez en compte que le grand amour et les grandes réussites impliquent de grands risques.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Lorsque vous échouez, n'échouez pas la leçon.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Ouvrez vos bras au changement, mais ne laissez pas s'envoler vos valeurs.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: ".",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Rappellez-vous que le silence est parfois la meilleure réponse.",
+    auteur: "Dalaï-lama(création en 1391) est la plus importante lignée de réincarnation du bouddhisme tibétain.",
+    categorie: ["tous"],
+  },
+  {
     texte: "L'important c'est d'avoir des rêves assez grands pour ne pas les perdre de vue lorsqu'on les poursuit.",
     auteur: "Oscar Wilde(1854-1900) est un écrivain et un poète. Il s'est inséré dans les cercles cultivés et la bonne société et réussi à s'illustrer dans plusieurs genres littéraires.",
     categorie: ["tous", "reve"],
@@ -1856,9 +2001,93 @@ const citations = [
     categorie: ["tous", "sagesse"],
   },
   {
-    texte: "Il ne faut appeller richesses les choses que l'on peut perdre.",
-    auteur: "Léonard de Vinci(1452-1519) est un peintre italien à la fois scientifique, ingénieur, inventeur et philosophe. Il peint le tableau qui doit être le plus connu dans le monde \"La Joconde\"",
+    texte: "Tu ne sais jamais à quel point tu es fort jusqu'au jour où être fort reste la seule option.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Essai de devenir ce que tu veux plutôt que de devenir ce qu'ils veulent que tu deviennes.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Ne vis pas pour que ta présence se remarque, mais pour que ton absence se ressente.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Qui es-tu pour me juger ? Avant de pointer du doigt, vérifie que tes mains sont propres.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Emancipe toi de l'esclavage mental, nul autre que toi-même ne peut libérer ton esprit.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "La grandeur d'un homme ne se situe pas dans la richesse qu'il acquiert mais dans son intégrité et sa capacité à affecter positivement ceux qui l'entourent.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
     categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "S'il y'a un problème, il y'a une solution. S'il n'y a pas de solution, c'est qu'il n'y a pas de problème.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Les chiens et le chats arrivent à vivre ensemble, alors qu'est ce qui cloche chez toi, mon frère ?",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Si quelque chose peut te corrompre, c'est que tu es déjà corrompu.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Ce qui fait le plus de mal aux hommes, ce sont les vanités matérielles.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Certaines personnes aiment le pouvoir. D'autres ont le pouvoir d'aimer.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "L'homme est un univers en lui-même.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Je n'ai pas beaucoup d'ambition mais une chose me ferait plaisir, ce serait que les hommes vivent en paix.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Il ne faut appeller richesses les choses que l'on peut perdre.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'expérience prouve que celui qui n'a jamais confiance en personne ne sera jamais déçu.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'homme ne trouvera jamais une invention plus belle, plus simple ou plus directe que la nature car dans ses inventions rien ne manque et rien n'est excessif.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Les détails font la perfection, et la perfection n'est pas un détail.",
+    categorie: ["tous", ""],
+  },
+  {
+    texte: "Sachez vous éloigner car, lorsque vous reviendrez à votre travail, votre jugement sera plus sûr.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Celui qui s'oriente sur l'étoile ne se retourne pas.",
+    categorie: ["tous", "courage", "reve"],
   },
   {
     texte: "Surtout, soyez toujours capables de ressentir au plus profond de votre coeur n'importe qu'elle injustice commise contre n'importe qui, où que ce soit dans le monde. C'est la plus belle qualité d'une révolutionnaire.",
@@ -1869,6 +2098,21 @@ const citations = [
     texte: "Celui qui n'a pas le courage de se rebeller n'a pas le droit de se lamenter.",
     auteur: "Che Guevara(1928-1967) est un révolutionnaire et a été un dirigeant de la révolution cubaine dans le but d'abolir les inégalités.",
     categorie: ["tous", "courage", "liberte"],
+  },
+  {
+    texte: "Que le monde te change et tu peux changer le monde.",
+    auteur: "Che Guevara(1928-1967) est un révolutionnaire et a été un dirigeant de la révolution cubaine dans le but d'abolir les inégalités.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le premier devoir d'un révolutionnaire est d'être éduqué.",
+    auteur: "Che Guevara(1928-1967) est un révolutionnaire et a été un dirigeant de la révolution cubaine dans le but d'abolir les inégalités.",
+    categorie: ["tous", "liberte", "sagesse"],
+  },
+  {
+    texte: "Si tu peux trouver des chemins sans aucun obstacles, il mène probablement nulle part.",
+    auteur: "Che Guevara(1928-1967) est un révolutionnaire et a été un dirigeant de la révolution cubaine dans le but d'abolir les inégalités.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Suivez votre coeur et votre intuition, l'un et l'autre savent ce que vous voulez devenir.",
@@ -2012,6 +2256,11 @@ const citations = [
   },
   {
     texte: "Le succès n'est pas final, l'échec n'est pas fatal: c'est le courage de continuer qui compte.",
+    auteur: "Winston Churchill(1874-1965) est un homme politique et un écrivain britannique. Il est premier ministre du Royaume-Uni de mai 1940 à juillet 1945 puis d'octobre 1951 à avril 1955.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Jamais jamais jamais. N'abandonnez jamais.",
     auteur: "Winston Churchill(1874-1965) est un homme politique et un écrivain britannique. Il est premier ministre du Royaume-Uni de mai 1940 à juillet 1945 puis d'octobre 1951 à avril 1955.",
     categorie: ["tous", "courage"],
   },
@@ -2412,6 +2661,21 @@ const citations = [
     categorie: ["tous", "courage", "reve"],
   },
   {
+    texte: "Certains veulent que ça arrive. D'autres aimeraient que ça arrive. Et les autres font que ça arrive.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "Je peux accepter l'échec, tout le monde échoue dans quelque chose. Mais je ne peux pas accepter de ne pas essayer.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "J'ai raté 9000 tirs dans ma carrière. J'ai perdu presque 300 matchs. 26 fois, on m'a fait confiance pour prendre le tir de la victoire et j'ai raté. J'ai échoué encore et encore et encore dans ma vie. Et c'est pourquoi je réussis.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage"],
+  },
+  {
     texte: "C'est en croyant aux roses qu'on les fait éclore.",
     auteur: "Anatole France(1844-1924) est un écrivain français considéré comme l'un des plus grands de l'époque. Il s'engage dans de nombreuses causes sociales et politiques.",
     categorie: ["tous", "courage", "reve"],
@@ -2507,9 +2771,29 @@ const citations = [
     categorie: ["tous", "liberte"],
   },
   {
+    texte: "Quand on peut voir si nettement les défauts des autres, c'est qu'on les a.",
+    auteur: "Jules Renard(1864-1910) est un écrivain et auteur dramatique français.",
+    categorie: ["tous", "morale"],
+  },
+  {
     texte: "Et par le pouvoir d'un mot. Je recommence ma vie. Je suis né pour te connaître. Pour te nommer. Liberté.",
     auteur: "Paul Eluard(1895-1952) est un poète français.",
     categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Un rêve sans étoiles est un rêve oublié.",
+    auteur: "Paul Eluard(1895-1952) est un poète français.",
+    categorie: ["tous", "reve", "sen"],
+  },
+  {
+    texte: "Un rêve sans étoiles est un rêve oublié.",
+    auteur: "Paul Eluard(1895-1952) est un poète français.",
+    categorie: ["tous", "reve", "sen"],
+  },
+  {
+    texte: "Il n'y a pas de hasards, il n'y a que des rendez-vous.",
+    auteur: "Paul Eluard(1895-1952) est un poète français.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Le secret du bonheur est la liberté. Le secret de la liberté est le courage",
@@ -2783,7 +3067,7 @@ const citations = [
   },
   {
     texte: "Vous manquez 100 pour cent des tirs que vous ne tentez pas.",
-    auteur: "Wayne Gretzky né en 1961 est un joueur professionnel canadien de hockey sur glace. Portant le numéro 99 durant sa carrière, il est le seul joueur dont le numéro est retiré par toutes les equipes de la ligue nationale de Hockey.",
+    auteur: "Wayne Gretzky né en 1961 est un joueur professionnel canadien de hockey sur glace.",
     categorie: ["tous", "courage", "reve"],
   },
   {
@@ -2797,7 +3081,6 @@ const citations = [
     categorie: ["tous", "sagesse","sensibilite"],
   },
   {
-    texte: "Nul ne peut avoir de lien avec son prochain s'il n'en a d'abord avec lui-même.",
     auteur: "Carl Jung(1875-1961) est un psychologue analytique et un penseur influent. Il est l'auteur de nombreux ouvrages.",
     categorie: ["tous", ],
   },
@@ -3371,4 +3654,120 @@ const citations = [
     auteur: "Jean-Paul Sartre(1905-1980) est un écrivain et philosophe français qui représente le courant de l'existentialisme.",
     categorie: ["tous", "courage", "sagesse"],
   },
+  {
+    texte: "La vie est ce que nous la rêvons. La mesure de la vie, c'est l'amour",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    categorie: ["tous", "reve", "sen"],
+  },
+  {
+    texte: "Peu importe le succés, il s'agit d'être grand, non de le paraître.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le métier des intellectuels est de chercher la vérité au milieu de l'erreur.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Même sans espoir, la lutte est encore un espoir.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Tu ne vivrais pas, si tu ne croyais pas. Chacun croit",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "En agissant, on se trompe parfois; en ne faisant rien, on se trompe toujours.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    categorie: ["tous", "courage", "sagesse"],
+  },
+  {
+    texte: "La véritable éducation c'est d'apprendre comment penser et non pas quoi penser.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La relation est un miroir dans lequel on peut se voir, non pas tel que je souhaiterais être, mais tel que je suis.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Si l'on ne se compare à personne on devient ce que l'on est.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Nous cherchons toujours à jeter un pont entre ce qui est et ce qui devrait être, et par là, donnons naissance à un état de contradiction et de conflit ou se perdent toutes les énergies.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Ce n'est pas un signe de bonne santé mentale d'être bien adapté à une société malade.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'éducation consiste à comprendre l'enfant tel qu'il est sans lui imposer l'image de ce que nous pensons qu'il devrait être.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", ],
+  },
+  {
+    texte: "La vérité est un pays sans chemin. Dès que vous suivez quelqu'un, vous cessez de suivre la vérité.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La peur bloque la compréhension intelligente de la vie.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Nous ne savons pas vivre et, par conséquent, nous ne savons pas mourir. Tant que nous aurons peur de la vie, nous aurons peur de la mort.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "L'ignorant n'est pas celui qui manque d'érudition mais celui qui ne se connaît pas lui-même.",
+    auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Les gagnants trouvent des moyens, les perdants des excuses.",
+    auteur: "Franklin Delano Roosevelt(1882-1945) a été élu à quatre reprises président des Etats-Unis.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Il est dur d'échouer; mais il est pire de n'avoir jamais tenté de réussir.",
+    auteur: "Franklin Delano Roosevelt(1882-1945) a été élu à quatre reprises président des Etats-Unis.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Faites quelque chose et, si ça ne réussit pas. Essayez autre chose.",
+    auteur: "Franklin Delano Roosevelt(1882-1945) a été élu à quatre reprises président des Etats-Unis.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Exposez-vous à vos peurs les plus profondes et après cela, la peur ne pourra plus vous atteindre.",
+    auteur: "Jim Morrison(1943-1971) est un chanteur et poète américain cofondateur du groupe de rock The Doors.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "L'instant est béni. Tout le reste est souvenir.",
+    auteur: "Jim Morrison(1943-1971) est un chanteur et poète américain cofondateur du groupe de rock The Doors.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "C'est le propre de l'amour véritable de laisser une personne être ce qu'elle est vraiment.",
+    auteur: "Jim Morrison(1943-1971) est un chanteur et poète américain cofondateur du groupe de rock The Doors.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Celui qui contrôle les médias contrôle les esprits.",
+    auteur: "Jim Morrison(1943-1971) est un chanteur et poète américain cofondateur du groupe de rock The Doors.",
+    categorie: ["tous", "liberte", "sagesse"],
+  },
 ];
+Mandela
