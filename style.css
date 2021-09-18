@@ -159,6 +159,7 @@ input[type="text"]{
   height: 40vh;
   margin-top: 20px;
   margin-left: 50px;
+  /* z-index: 2; */
 }
 
 #conteneur-citation>blockquote{
@@ -170,6 +171,7 @@ input[type="text"]{
   text-align: center;
   margin-left: 50px;
   padding: 20px;
+  z-index: 2;
 }
 
 #auteur{
@@ -177,10 +179,12 @@ input[type="text"]{
   font-size: 1.5rem;
   margin: 50px 0 0 50px;
   padding: 5px;
+  z-index: 2;
 }
 
 footer{
   text-align: center;
+  z-index: 100;
 }
 
 @keyframes animFond{
@@ -226,6 +230,25 @@ footer{
   }
   to{
     opacity: 0;
+  }
+}
+
+.star{
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color2);
+  opacity: 0;
+  animation: animStar 8s forwards;
+  filter: hue-rotate(0deg);
+  z-index: 1;
+}
+
+@keyframes animStar{
+  to{
+    top: var(--startop);
+    left: var(--starleft);
+    opacity: 0.66;
+    filter: hue-rotate(360deg);
   }
 }
 

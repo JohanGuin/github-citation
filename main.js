@@ -320,6 +320,24 @@ function buttonChoixUser(){
   lectureCitations();
 }
 
+const stars = () => {
+  const star = document.createElement("span");
+  const size = Math.random() * 30 + 30 + "px";
+  star.classList.add("star");
+  conteneurCitation.appendChild(star);
+  star.style.height = size;
+  star.style.width = size;
+  star.style.top = Math.random() * 80 + 20 + "%";
+  star.style.left = Math.random() * 80 + 10 + "%";
+  star.style.setProperty("--startop", Math.random() * 100 + "%");
+  star.style.setProperty("--starleft", Math.random() * 100 + "%");
+  setTimeout(() => {
+    star.remove();
+  }, 7000);
+}
+
+setInterval(stars, 1000);
+
 window.addEventListener("load", () => {
   tous.addEventListener("click", buttonChoixUser);
   bon.addEventListener("click", buttonChoixUser);
