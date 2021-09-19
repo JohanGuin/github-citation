@@ -1996,6 +1996,11 @@ const citations = [
     categorie: ["tous", "sagesse"],
   },
   {
+    texte: "Accepte ce qui est, laisse aller ce qui était, aie confiance en ce qui sera.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "courage"],
+  },
+  {
     texte: "La vie peut-être merveilleuse si on n'en a pas peur.",
     auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
     categorie: ["tous", "courage"],
@@ -2331,6 +2336,11 @@ const citations = [
   },
   {
     texte: "Personne ne peut retourner en arrière, mais tout le monde peut aller de l'avant. Et demain, quand le soleil se lévera, il suffira de se répéter: je vais regarder cette journée comme si c'était la première de ma vie.",
+    auteur: "Paulo Coelho né en 1947 est un romancier et journaliste qui connait une renommée internationale depuis la publication de l'Alchimiste.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Si vous pensez que l'aventure est dangereuse, essayez la routine, elle est mortelle.",
     auteur: "Paulo Coelho né en 1947 est un romancier et journaliste qui connait une renommée internationale depuis la publication de l'Alchimiste.",
     categorie: ["tous", "courage"],
   },
@@ -3061,6 +3071,11 @@ const citations = [
     categorie: ["tous", "bonheur", "liberte"],
   },
   {
+    texte: "J'ai décidé d'être heureux parce que c'est bon pour la santé.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
     texte: "Plus grand est l'obstacle, plus grande est la gloire de le surmonter.",
     auteur: "Molière(1622-1673) est un comédien et dramaturge français. C'est un créateur et interpréte et jouera le rôle principal de ses pièces.",
     categorie: ["tous", "courage", "reve"],
@@ -3189,6 +3204,11 @@ const citations = [
     texte: "L'homme ordinaire est exigeant avec les autres. L'homme exceptionnel est exigeant avec lui-même.",
     auteur: "Marc Aurèle(121-180) est un empereur, philosophe stoïcien et écrivain romain.",
     categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Accomplis chaque acte de ta vie comme s'il devait être le dernier.",
+    auteur: "Marc Aurèle(121-180) est un empereur, philosophe stoïcien et écrivain romain.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Ce n'est pas ce qui vous arrive qui importe, mais votre façon d'y réagir.",
@@ -3789,5 +3809,275 @@ const citations = [
     texte: "Celui qui contrôle les médias contrôle les esprits.",
     auteur: "Jim Morrison(1943-1971) est un chanteur et poète américain cofondateur du groupe de rock The Doors.",
     categorie: ["tous", "liberte", "sagesse"],
+  },
+  {
+    texte: "La droite a gagné les élections. La gauche a gagné les éléctions. Quand est-ce que ce sera la France qui gagnera les élections ?",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "S'il y'avait un impôt sur la connerie l'Etat s'autofinancerait.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "On n'arrête pas le progrès dit-on, la bétise non plus.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "On dit toujours qu'on peut pas être et avoir été. Eh ben, j'en connais un, dis donc, il a été con et il l'est encore !",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Des fois, on a plus de contacts avec un chien pauvre qu'avec un homme riche.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Je ferais admirablement remarquer aux hommes politiques qui me prennent pour un rigolo que ce n'est pas moi qui ai commencé.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La droite vend des promesses et ne les tient pas, la gauche vend de l'espoir et le brise.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "C'est pas parce qu'ils sont nombreux à avoir tort qu'ils ont raison !",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "On ne peut pas dire la vérité à la télé: il y'a trop de monde qui regarde.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Si voter changeait quelque chose il y'a longtemps que ça serait interdit.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Il paraît que la crise rend les riches plus riches et les pauvres plus pauvres. Je ne vois pas en quoi c'est une crise. Depuis que je suis petit, c'est comme ça.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Pour critiquer les gens il faut les connaître, et pour les connaître, il faut les aimer.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "C'est pas vraiment de ma faute si y'en a qui ont faim. Mais ça le deviendrait si on y changeait rien.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les portes de l'avenir sont ouvertes à ceux qui savent les pousser.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "De tous ceux qui n'ont rien à dire, les plus agréables sont ceux qui se taisent.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La différence qu'il y'a entre les oiseaux et les hommes politiques, c'est que de temps en temps les oiseaux s'arrêtent de voler !",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Tant qu'on fait rire, c'est des plaisanteries. Dès que ce n'est pas drôle, c'est des insultes.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Le mariage, la confiance n'y est pas. Il faut des témoins, comme dans les accidents.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Je suis capable du meilleur et du pire. Mais, dans le pire, c'est moi le meilleur.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La chambre des députés: la moitié est bonne à rien. Les autres sont prêts à tout.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Certains ont l'air honnête, mais quand ils te serrent la main, tu as intérêt à recompter tes doigts.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Dieu a dit : \"Je partage en deux, les riches auront de la nourriture, les pauvres de l'appétit\".",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Mesdames, un conseil. Si vous cherchez un homme beau, riche et intelligent... prenez-en trois !",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Dans la vie, y'a pas de grands, y'a pas de petits. La bonne longueur pour les jambes, c'est quand les pieds touchent par terre.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Si vous avez besoin de quelque chose, appelez-moi. Je vous dirai comment vous en passer.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "bonheur", "liberte"],
+  },
+  {
+    texte: "Dans les fins de mois, ce qui est le plus dur, c'est les trente derniers jours.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Rappelez-vous toujours que si la Gestapo avait les moyens de vous faire parler; les politiciens ont eux, les moyens de vous faire taire.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "liberte", "morale"],
+  },
+  {
+    texte: "Homme politique, c'est une profession où il est plus utile d'avoir des relations que des remords.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "J'arrêterai de faire de la politique quand les hommes politiques arrêteront de nous faire rire.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La politique c'est pas compliqué, il suffit d'avoir bonne conscience, et pour cela il suffit d'avoir une mauvaise mémoire.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les journalistes ne croient pas les mensonges des hommes politiques, mais ils les répétent, c'est pire.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "A la télé ils disent tous les jours : il y'a tand de millions de personnes qui cherchent du travail, c'est pas vrai, de l'argent leur suffirait.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "A 20h à la télé quand tous les pauvres sortent du travail, on ne pourrait pas dire toute la vérité. Sinon la majorité n'irait pas travailler le lendemain.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Tous les hommes politiques sont des comiques de circonstances, moi j'ai sur eux l'avantage d'être un comique professionnel.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "A quoi sert le pouvoir si c'est pour ne pas en abuser ?",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "La vie mettra des pierres sur ta route. A toi de décider d'en faire des murs ou des ponts.",
+    auteur: "Coluche(1944-1986) est un humoriste et comédien français est le fondateur des Restos du coeur.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Nous sommes tous obligés, pour rendre la réalité supportable, d'entretenir en nous quelques petites folies.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Le bonheur est salutaire pour le corps, mais c'est le chagrin qui développe les forces de l'esprit.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Savoir qu'on n'a plus rien à espérer n'empêche pas de continuer à attendre.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Les jours sont peut-être égaux pour une horloge, mais pas pour un homme.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Une heure n'est pas une heure, c'est un vase rempli de parfums, de sons, de projets et de climats.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "bonheur", "sen"],
+  },
+  {
+    texte: "La vie est semée de ces miracles que peuvent toujours espérer les personnes qui aiment.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Il n'y a pas de réussite facile ni d'échecs définitifs.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "L'amour c'est l'espace et le temps rendus sensibles au coeur.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "sen"],
+  },
+  {
+    texte: "Nous ne savons jamais si nous ne sommes pas en train de manquer notre vie.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le désir fleurit, la possession flétrit toutes choses.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "On ne trouve le bonheur qu'à faire ce qu'on aime avec les tendances profondes de son âme.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "bonheur", "sen"],
+  },
+  {
+    texte: "La douleur est un aussi puissant modificateur de la réalité qu'est l'ivresse.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "sen"],
+  },
+  {
+    texte: "On ne reçoit pas la sagesse, il faut la découvrir soi-même après un trajet que personne ne peut faire pour vous.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "courage", "sagesse"],
+  },
+  {
+    texte: "Là où la vive emmure, l'intelligence perce une issue.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Tachez de garder toujours un morceau de ciel au-dessus de votre vie.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "Il vaut mieux rêver sa vie que la vivre, encore que la vivre, ce soit encore la rêver.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "bonheur", "reve"],
+  },
+  {
+    texte: "Le véritable voyage de découverte ne consiste pas à chercher de nouveaux paysages, mais à avoir de nouveaux yeux.",
+    auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Au fur et à mesure que je modifie mes pensées, le monde autour de moi se transforme.",
+    auteur: "Louise Hay(1926-2017) est auteur de nombreux ouvrages sur le développement personnel.",
+    categorie: ["tous", "reve"],
   },
 ];

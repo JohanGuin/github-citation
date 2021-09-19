@@ -237,6 +237,10 @@ let lectureCitations = () => {
     fond.src = "assets/FDRoosevelt.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Morrison")){
     fond.src = "assets/Jim_Morrison.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Coluche")){
+    fond.src = "assets/Coluche.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Proust")){
+    fond.src = "assets/Marcel_Proust.jpg";
   }
 
   conteneurCitation.append(cite);
