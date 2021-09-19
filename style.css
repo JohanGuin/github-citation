@@ -64,6 +64,7 @@ main{
   margin-bottom: 10px;
   color: var(--color2);
   letter-spacing: -2px;
+  text-shadow: 3px 3px 4px var(--color2);
 }
 
 .conteneur-options{
@@ -125,6 +126,8 @@ form{
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  box-shadow: 0 5px 4px var(--color1);
+  margin-left: 20px;
 }
 
 input[type="text"]{
@@ -161,6 +164,11 @@ input[type="text"]{
   margin-top: 20px;
   margin-left: 50px;
   z-index: 2;
+  padding: 8px;
+  border: 1px solid var(--color1);
+  background-color: #fff;
+  box-shadow: 10px 10px 10px var(--color1);
+  border-radius: 10px;
 }
 
 #conteneur-citation>blockquote{
@@ -173,6 +181,7 @@ input[type="text"]{
   margin-left: 50px;
   padding: 20px;
   z-index: 2;
+  text-shadow: 2px 2px 3px #fff;
 }
 
 #auteur{
@@ -181,6 +190,7 @@ input[type="text"]{
   margin: 50px 0 0 50px;
   padding: 5px;
   z-index: 2;
+  text-shadow: 2px 2px 3px #fff;
 }
 
 footer{
@@ -298,6 +308,7 @@ footer{
     position: relative;
     bottom: 50px;
     margin: 0;
+    padding: 5px;
   }
   #auteur{
     font-size: 1.25rem;
@@ -306,6 +317,9 @@ footer{
     position: relative;
     bottom: 45px;
     left: 10px;
+  }
+  form{
+    margin-left: 0;
   }
   @keyframes animFond{
     from{
