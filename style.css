@@ -78,6 +78,7 @@ main{
   "mor rev sen er";
   gap: 3px;
   perspective: 100px;
+  z-index: 2;
 }
 
 #tous{
@@ -159,7 +160,7 @@ input[type="text"]{
   height: 40vh;
   margin-top: 20px;
   margin-left: 50px;
-  /* z-index: 2; */
+  z-index: 2;
 }
 
 #conteneur-citation>blockquote{
@@ -236,19 +237,26 @@ footer{
 .star{
   position: absolute;
   border-radius: 50%;
-  background-color: var(--color2);
+  background: radial-gradient(20% 20% at 35% 35%, var(--color3), var(--color2));
   opacity: 0;
   animation: animStar 8s forwards;
   filter: hue-rotate(0deg);
   z-index: 1;
+  box-shadow: 0px 0px 20px var(--color2);
 }
 
 @keyframes animStar{
+  50%{
+    opacity: 1;
+    filter: brightness(180deg);
+
+  }
   to{
+    transform: scale(1.5);
     top: var(--startop);
     left: var(--starleft);
-    opacity: 0.66;
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(720deg);
+    opacity: 1;
   }
 }
 

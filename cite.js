@@ -1726,9 +1726,14 @@ const citations = [
     categorie: ["tous", ],
   },
   {
-    texte: "La plus grande peur dans le monde est celle du jugement des autres. A partir du moment où vous n'avez plus peur de ce jugement, alors vous n'êtes plus un mouton, vous devenez un lion. Un grand rugissement émane de votre coeur. Le rugissement de la liberté",
+    texte: "La plus grande peur dans le monde est celle du jugement des autres. A partir du moment où vous n'avez plus peur de ce jugement, alors vous n'êtes plus un mouton, vous devenez un lion. Un grand rugissement émane de votre coeur. Le rugissement de la liberté.",
     auteur: "Osho(1931-1990) est un écrivain indien qui fonda un centre spirituel en Oregon. Il est le créateur de ce qu'il nomma \"méditation dynamique\".",
     categorie: ["tous", "courage", "liberté"],
+  },
+  {
+    texte: "Si vous êtes capable d'être heureux quand vous êtes seul, vous avez appris le secret d'être heureux.",
+    auteur: "Osho(1931-1990) est un écrivain indien qui fonda un centre spirituel en Oregon. Il est le créateur de ce qu'il nomma \"méditation dynamique\".",
+    categorie: ["tous", "bonheur"],
   },
   {
     texte: "Il n'y a personne qui soit né sous une mauvaise étoile, Il n'y a que des gens qui ne savent pas lire le ciel.",
@@ -1999,6 +2004,16 @@ const citations = [
     texte: "Accepte ce qui est, laisse aller ce qui était, aie confiance en ce qui sera.",
     auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
     categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Ce que nous sommes est le résultat de ce que nous avons pensé.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Le bonheur n'est pas chose aisée. Il est très difficile à trouver en nous. Il est impossible à trouver à l'extérieur.",
+    auteur: "Bouddha désigne une personne qui par sa sagesse à réussi à s'éveiller et atteint le nirvana. L'appellation de bouddha peut donc se référer à plusieurs personnes.",
+    categorie: ["tous", "bonheur"],
   },
   {
     texte: "La vie peut-être merveilleuse si on n'en a pas peur.",
@@ -2283,6 +2298,16 @@ const citations = [
     texte: "Jamais jamais jamais. N'abandonnez jamais.",
     auteur: "Winston Churchill(1874-1965) est un homme politique et un écrivain britannique. Il est premier ministre du Royaume-Uni de mai 1940 à juillet 1945 puis d'octobre 1951 à avril 1955.",
     categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Si vous persistez dans cette course à l'armement nucléaire, vous ne ferez rien d'autre que de tout détruire.",
+    auteur: "Winston Churchill(1874-1965) est un homme politique et un écrivain britannique. Il est premier ministre du Royaume-Uni de mai 1940 à juillet 1945 puis d'octobre 1951 à avril 1955.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Le défaut du capitalisme c'est qu'il répartit inégalement les richesses. Le défaut du socialisme c'est qu'il répartit également la misère.",
+    auteur: "Winston Churchill(1874-1965) est un homme politique et un écrivain britannique. Il est premier ministre du Royaume-Uni de mai 1940 à juillet 1945 puis d'octobre 1951 à avril 1955.",
+    categorie: ["tous"],
   },
   {
     texte: "Il n'existe pas d'occasion unique, le vie offre toujours une seconde chance.",
@@ -2799,6 +2824,11 @@ const citations = [
     texte: "Quand on peut voir si nettement les défauts des autres, c'est qu'on les a.",
     auteur: "Jules Renard(1864-1910) est un écrivain et auteur dramatique français.",
     categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Rêve de grandes choses. Cela te permettra au moins d'en faire de toutes petites.",
+    auteur: "Jules Renard(1864-1910) est un écrivain et auteur dramatique français.",
+    categorie: ["tous", "reve"],
   },
   {
     texte: "Et par le pouvoir d'un mot. Je recommence ma vie. Je suis né pour te connaître. Pour te nommer. Liberté.",
@@ -3753,7 +3783,7 @@ const citations = [
   {
     texte: "L'éducation consiste à comprendre l'enfant tel qu'il est sans lui imposer l'image de ce que nous pensons qu'il devrait être.",
     auteur: "jiddu krishnamurti(1895-1986) est un penseur indien.",
-    categorie: ["tous", ],
+    categorie: ["tous"],
   },
   {
     texte: "La vérité est un pays sans chemin. Dès que vous suivez quelqu'un, vous cessez de suivre la vérité.",
@@ -4013,7 +4043,7 @@ const citations = [
   {
     texte: "Une heure n'est pas une heure, c'est un vase rempli de parfums, de sons, de projets et de climats.",
     auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
-    categorie: ["tous", "bonheur", "sen"],
+    categorie: ["tous", "bonheur", "sensibilite"],
   },
   {
     texte: "La vie est semée de ces miracles que peuvent toujours espérer les personnes qui aiment.",
@@ -4028,7 +4058,7 @@ const citations = [
   {
     texte: "L'amour c'est l'espace et le temps rendus sensibles au coeur.",
     auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
-    categorie: ["tous", "sen"],
+    categorie: ["tous", "sensiblite"],
   },
   {
     texte: "Nous ne savons jamais si nous ne sommes pas en train de manquer notre vie.",
@@ -4043,12 +4073,12 @@ const citations = [
   {
     texte: "On ne trouve le bonheur qu'à faire ce qu'on aime avec les tendances profondes de son âme.",
     auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
-    categorie: ["tous", "bonheur", "sen"],
+    categorie: ["tous", "bonheur", "sensibilite"],
   },
   {
     texte: "La douleur est un aussi puissant modificateur de la réalité qu'est l'ivresse.",
     auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
-    categorie: ["tous", "sen"],
+    categorie: ["tous", "sensibilite"],
   },
   {
     texte: "On ne reçoit pas la sagesse, il faut la découvrir soi-même après un trajet que personne ne peut faire pour vous.",
@@ -4056,7 +4086,7 @@ const citations = [
     categorie: ["tous", "courage", "sagesse"],
   },
   {
-    texte: "Là où la vive emmure, l'intelligence perce une issue.",
+    texte: "Là où la vie emmure, l'intelligence perce une issue.",
     auteur: "Marcel Proust(1871-1922) est un écrivain français qui a publié \"A la recherche du temps perdu\".",
     categorie: ["tous", "sagesse"],
   },
@@ -4076,8 +4106,98 @@ const citations = [
     categorie: ["tous", "sagesse"],
   },
   {
-    texte: "Au fur et à mesure que je modifie mes pensées, le monde autour de moi se transforme.",
-    auteur: "Louise Hay(1926-2017) est auteur de nombreux ouvrages sur le développement personnel.",
+    texte: "On ne voit bien qu'avec le coeur; l'essentiel est invisible pour les yeux.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Les étoiles sont éclairées pour que chacun puisse un jour retrouver la sienne.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "reve", "sensibilite"],
+  },
+  {
+    texte: "C'est une folie de haïr toutes les roses parce qu'une épine vous a piqué, d'abandonner tous ses rêves parce que l'un d'entre eux ne s'est pas réalisé.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", ,"courage", "reve"],
+  },
+  {
+    texte: "Faîtes que le rêve dévore votre vie afin que la vie ne dévore pas votre rêve.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
     categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Toutes les grandes personnes ont d'abord été des enfants mais peu d'entre elles s'en souviennent.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous"," sensibilite"],
+  },
+  {
+    texte: "Pourquoi nous haïr ? Nous sommes solidaires, emportés sur la même planéte, équipage d'un même navire.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Si tu différes de moi, mon frère, loin de me léser tu m'enrichis.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Vivre, c'est naître lentement, il serait un peu trop aisé d'emprunter des âmes toutes faîtes.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Pose des questions, mais surtout écoute les réponses.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Et si l'on peut te prendre ce que tu possèdes, qui peut te prendre ce que tu donnes ?",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "J'ai vu la flamme de la liberté falire resplendir les hommes et la tyrannie les abrutir.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "liberte", "sagesse"],
+  },
+  {
+    texte: "Mais si tu m'apprivoises, nous aurons besoin l'un de l'autre; tu seras pour moi unique au monde, je serai pour toi unique au monde.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "L'amour une fois qu'il a germé, donne des racines qui ne finissent plus de croître.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Etre un homme, c'est sentir, en posant sa pierre, que l'on contribue à batir le monde.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "C'est le temps que tu as perdu pour ta rose qui rend ta rose importante.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Le moment d'agir est maintenant, il n'est jamais trop tard pour faire quelque chose.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "L'homme se découvre quand il se mesure avec l'obstacle.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Fais de ta vie un rêve et d'un rêve une réalité.",
+    auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
+    categorie: ["tous", "courage", "reve"],
   },
 ];

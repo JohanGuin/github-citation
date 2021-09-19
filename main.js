@@ -241,6 +241,8 @@ let lectureCitations = () => {
     fond.src = "assets/Coluche.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Proust")){
     fond.src = "assets/Marcel_Proust.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Saint-Exupéry")){
+    fond.src = "assets/antoine_de_saint_exupery.jpg";
   }
 
   conteneurCitation.append(cite);
@@ -326,7 +328,7 @@ function buttonChoixUser(){
 
 const stars = () => {
   const star = document.createElement("span");
-  const size = Math.random() * 30 + 30 + "px";
+  const size = Math.random() * 60 + 40 + "px";
   star.classList.add("star");
   conteneurCitation.appendChild(star);
   star.style.height = size;
@@ -340,7 +342,7 @@ const stars = () => {
   }, 7000);
 }
 
-setInterval(stars, 1000);
+setInterval(stars, 700);
 
 window.addEventListener("load", () => {
   tous.addEventListener("click", buttonChoixUser);
