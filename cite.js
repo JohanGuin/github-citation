@@ -191,6 +191,41 @@ const citations = [
     categorie: ["tous", "courage", "sagesse"],
   },
   {
+    texte: "Placez votre main sur un poêle une minute et ça vous semble durer une heure. Asseyez vous auprès d'une jolie fille une heure et ça vous semble durer une minute. C'est ça la relativité.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Je ne sais pas comment sera la troisième guerre mondiale, mais je sais qu'il n'y aura plus beaucoup de monde pour voir la quatrième.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Quiconque prétend s'ériger en juge de la vérité et du savoir s'expose à périr sous les éclats de rire des dieux puisque nous ignorons comment sont réellement les choses et que nous n'en connaissons que la représentation que nous en faisons.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Je ne crois point, au sens philosophique du terme, à la liberté de l'homme. Chacun agit non seulement sous une contrainte extérieure, mais aussi d'après une nécessité intérieure.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Si vous ne pouvez expliquer un concept à un enfant de six ans, c'est que vous ne le comprenez pas complètement.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Si l'idée n'est pas à priori absurde, elle est sans espoir.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "L'intelligence n'est pas la capacité de stocker des informations, mais de savoir où les trouver.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
     texte: "Les médias sont les entités les plus puissantes sur terre. Ils ont le pouvoir de rendre les innocents coupables et faire des coupables des innocents, et c'est ça le pouvoir. Parce qu’ils contrôlent l’esprit des masses.",
     auteur: "Malcolm X(1925-1965) est un militant politique et un défenseur des droits de l'homme qui a été assassiné le 21 février 1965 à Harlem.",
     categorie: ["tous", "liberte", "morale"],
@@ -214,6 +249,21 @@ const citations = [
     texte: "Quand vous commencez à penser par vous-mêmes, vous leur faites peur, et ils s'efforcent de vous interdire tout contact avec l'opinion publique, de peur que si l'opinion publique vous écoute, elle ne veuille plus les écouter.",
     auteur: "Malcolm X(1925-1965) est un militant politique et un défenseur des droits de l'homme qui a été assassiné le 21 février 1965 à Harlem.",
     categorie: ["tous", "courage", "liberte"],
+  },
+  {
+    texte: "On ne peut gagner sa liberté qu'en montrant à l'ennemi que l'on est prêt à tout pour l'obtenir.",
+    auteur: "Malcolm X(1925-1965) est un militant politique et un défenseur des droits de l'homme qui a été assassiné le 21 février 1965 à Harlem.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "L'ignorance d'autrui est ce qui a rendu impossible l'unité jusqu'à aujourd'hui.",
+    auteur: "Malcolm X(1925-1965) est un militant politique et un défenseur des droits de l'homme qui a été assassiné le 21 février 1965 à Harlem.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Il n'y a pas de révolution où on aime l'ennemi, où on supplie le système qui nous exploite de nous intégrer.",
+    auteur: "Malcolm X(1925-1965) est un militant politique et un défenseur des droits de l'homme qui a été assassiné le 21 février 1965 à Harlem.",
+    categorie: ["tous", "liberte"],
   },
   {
     texte: "Il y'a souvent plus de choses naufragées au fond d'une âme qu'au fond de la mer.",
@@ -261,7 +311,7 @@ const citations = [
     categorie: ["tous", "courage", "liberte"],
   },
   {
-    texte: "Mes amis, retenez ceci, il n'y a ni mauvaises herbes ni mauvais hommes. Il n'a que des mauvais cultivateurs.",
+    texte: "Mes amis, retenez ceci, il n'y a ni mauvaises herbes ni mauvais hommes. Il n'y a que des mauvais cultivateurs.",
     auteur: "Victor Hugo(1802-1885) est un écrivain et un poète engagé idéologiquement et dans le débat politique. Il est considéré comme l'un des écrivains les plus importants de la langue française.",
     categorie: ["tous", ],
   },
@@ -2021,6 +2071,46 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "Nous ne devons pas avoir peur de nous confronter... Du chaos naît une étoile.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "La valeur d'un homme ne se mesure pas aux biens qu'il possède. La véritable valeur de l'homme, c'est son caractère et la noblesse de ses idéaux.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "La poésie est une lettre d'amour adressée au monde.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Il faut tendre vers l'impossible: les grands exploits à travers l'histoire ont été la conquête de ce qui semblait impossible.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Tu ne trouveras jamais l'arc-en-ciel si tu regardes toujours en bas.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Mon miroir est mon meilleur ami, car lorsque je pleure, il ne rit jamais.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "L'âme de l'homme a reçu des ailes et enfin elle commence à voler vers l'arc-en-ciel, vers la lumière de l'espoir.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Rien ne dure dans ce monde cruel, pas même nos souffrances.",
+    auteur: "Charlie Chaplin(1889-1977) est un acteur, réalisateur et compositeur. Il acquiert une large notoriété durant sa carrière d'acteur.",
+    categorie: ["tous"],
+  },
+  {
     texte: "Créé un chemin pour la venue des jours positifs.",
     auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
     categorie: ["tous", "courage"],
@@ -2096,27 +2186,38 @@ const citations = [
     categorie: ["tous", "morale"],
   },
   {
+    texte: "Mieux vaut mourir pour la liberté, qu'être un prisonnier tous les jours de ta vie.",
+    auteur: "Bob Marley(1945-1981) est un auteur-compositeur et un musicien jamaïcain. Il s'agit du musicien le plus connu mondialement ayant joué du reggae.",
+    categorie: ["tous", "liberte"],
+  },
+  {
     texte: "Il ne faut appeller richesses les choses que l'on peut perdre.",
+    auteur: "Léonard de Vinci(1452-1519) est un peintre italien qui a peint La Joconde.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "L'expérience prouve que celui qui n'a jamais confiance en personne ne sera jamais déçu.",
+    auteur: "Léonard de Vinci(1452-1519) est un peintre italien qui a peint La Joconde.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "L'homme ne trouvera jamais une invention plus belle, plus simple ou plus directe que la nature car dans ses inventions rien ne manque et rien n'est excessif.",
+    auteur: "Léonard de Vinci(1452-1519) est un peintre italien qui a peint La Joconde.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Les détails font la perfection, et la perfection n'est pas un détail.",
+    auteur: "Léonard de Vinci(1452-1519) est un peintre italien qui a peint La Joconde.",
     categorie: ["tous", ""],
   },
   {
     texte: "Sachez vous éloigner car, lorsque vous reviendrez à votre travail, votre jugement sera plus sûr.",
+    auteur: "Léonard de Vinci(1452-1519) est un peintre italien qui a peint La Joconde.",
     categorie: ["tous", "sagesse"],
   },
   {
     texte: "Celui qui s'oriente sur l'étoile ne se retourne pas.",
+    auteur: "Léonard de Vinci(1452-1519) est un peintre italien qui a peint La Joconde.",
     categorie: ["tous", "courage", "reve"],
   },
   {
@@ -2370,6 +2471,11 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "La liberté n'est pas l'absence d'engagement, mais la capacité de choisir.",
+    auteur: "Paulo Coelho né en 1947 est un romancier et journaliste qui connait une renommée internationale depuis la publication de l'Alchimiste.",
+    categorie: ["tous", "liberte"],
+  },
+  {
     texte: "Si vous pouvez le rêver, vous pouvez le faire.",
     auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
     categorie: ["tous", "courage", "reve"],
@@ -2413,6 +2519,36 @@ const citations = [
     texte: "Le rire est intemporel. L'imagination n'a pas d'âge. Et les rêves sont éternels.",
     auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
     categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "Pour que la vie soit un conte de fée, il suffit peut-être simplement d'y croire...",
+    auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Le bonheur est un état d'esprit. Il s'agit de la façon dont vous regardez les choses.",
+    auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Le rire n'est pas un ennemi de l'apprentissage.",
+    auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le vrai problème avec le monde, c'est que trop de gens grandissent.",
+    auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Toujours se battre pour la qualité, que ce soit pour donner ou pour recevoir.",
+    auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La meilleure façon de se mettre au travail, c'est d'arrêter de parler et de commencer à agir.",
+    auteur: "Walt Disney(1901-1966) est l'un des pionniers de l'animation. Il créé la société Walt Disney Company et produit des films célèbres.",
+    categorie: ["tous", "courage"],
   },
   {
     texte: "Tu ne traverseras jamais l'océan si tu as peur de perdre de vue le rivage.",
@@ -2596,6 +2732,51 @@ const citations = [
     categorie: ["tous", "liberte"],
   },
   {
+    texte: "Naturellement, ce sont toujours ceux qui n'ont rien qui sont les plus volés et volés par ceux qui ont tout...",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "On vit en travaillant... On ne s'enrichit qu'en faisant travailler.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Quand il y'a quelque part un homme trop riche, il y'a, par cela même, autour de lui, des gens trop pauvres.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les pauvres sont l'engrais humain où poussent les moissons de vie et de joie que récoltent les riches, et dont il mésusent si cruellement, contre nous...",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Si tu veux devenir vraiment un homme du monde, apprends d'abord à être un imbécile ou à te taire.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Les lois sont toujours faites par les riches contre les pauvres.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "L'injustice qui frappe un être vivant, fût-il ton ennemi, te frappe du même coup. Par elle, l'Humanité est lésée en vous deux.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les hommes passent la moitié de leur temps à se forger des chaînes et l'autre moitié à les porter.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "L'homme que tu élèves ne représente ni ta misère, ni tes aspirations, ni rien de toi, il ne représente que ses propres passions et intérêts, lesquels sont contraires aux tiens.",
+    auteur: "Octave Mirbeau(1848-1917) est un écrivain et journaliste français. Il s'agissait d'un journaliste influent qui connu un grand succès populaire.",
+    categorie: ["tous", "liberte"],
+  },
+  {
     texte: "N'est-il pas évident que tous les gouvernements sont les empoisonneurs, les abêtisseurs intéressés des masses populaires ?",
     auteur: "Mikhail Bakounine(1814-1876) est un révolutionnaire et philosophe russe qui s'est principalement intéressé au rôle de l'Etat.",
     categorie: ["tous", "liberte"],
@@ -2722,6 +2903,36 @@ const citations = [
   },
   {
     texte: "J'ai raté 9000 tirs dans ma carrière. J'ai perdu presque 300 matchs. 26 fois, on m'a fait confiance pour prendre le tir de la victoire et j'ai raté. J'ai échoué encore et encore et encore dans ma vie. Et c'est pourquoi je réussis.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Si tu abandonnes une fois, cela peut devenir une habitude. N'abandonne jamais.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Le talent permet de gagner des matchs, mais le travail d'équipe et l'intelligence permettent de gagner les championnats.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "J'ai toujours cru que si tu mets tout en oeuvre pour réussir, les résultats viendront.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Transforme toujours une situation négative en une situation positive.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Il faut se fixer des buts avant de pouvoir les atteindre.",
+    auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Les limites, comme la peur, sont souvent des illusions.",
     auteur: "Michael Jordan né en 1963 est un joueur de basket-ball américain. Il s'agit peut-être du plus grand joueur de basket-ball de tous les temps.",
     categorie: ["tous", "courage"],
   },
@@ -3371,6 +3582,31 @@ const citations = [
     categorie: ["tous", "morale"],
   },
   {
+    texte: "La réussite, ce n'est pas quand tu es au sommet, mais quand tu touches le fond et que tu es capable de rebondir.",
+    auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "La victoire su soi est la plus grande des victoires.",
+    auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Fais preuve de gentillesse envers tous ceux que tu rencontres, leur combat est peut-être plus dur que le tien.",
+    auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "L'homme le plus heureux est celui qui n'a dans l'âme aucune trace de méchanceté.",
+    auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Personne n'est plus detesté que celui qui dit la vérité.",
+    auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
+    categorie: ["tous"],
+  },
+  {
     texte: "L'amour est la seule fleur qui n'a pas besoin de saison pour éclore.",
     auteur: "Rûmî(1207-1273) est un poète mystique persan qui a profondément influencé le soufisme. Il est considéré en orient comme un grand maître spirituel.",
     categorie: ["tous", "sensibilite"],
@@ -3727,32 +3963,32 @@ const citations = [
   },
   {
     texte: "La vie est ce que nous la rêvons. La mesure de la vie, c'est l'amour",
-    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le prix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
     categorie: ["tous", "reve", "sen"],
   },
   {
     texte: "Peu importe le succés, il s'agit d'être grand, non de le paraître.",
-    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le prix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
     categorie: ["tous"],
   },
   {
     texte: "Le métier des intellectuels est de chercher la vérité au milieu de l'erreur.",
-    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le prix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
     categorie: ["tous"],
   },
   {
     texte: "Même sans espoir, la lutte est encore un espoir.",
-    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le prix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
     categorie: ["tous", "courage"],
   },
   {
     texte: "Tu ne vivrais pas, si tu ne croyais pas. Chacun croit",
-    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le prix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
     categorie: ["tous"],
   },
   {
     texte: "En agissant, on se trompe parfois; en ne faisant rien, on se trompe toujours.",
-    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le rpix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
+    auteur: "Romain Rolland(1866-1944) est un écrivain français qui a obtenu le prix nobel de littérature en 1915. Il rechercha durant sa vie la communion entre les hommes et fut une figure de la non-violence.",
     categorie: ["tous", "courage", "sagesse"],
   },
   {
@@ -4199,5 +4435,350 @@ const citations = [
     texte: "Fais de ta vie un rêve et d'un rêve une réalité.",
     auteur: "Antoine de Saint-Exupéry(1900-1944) est un écrivain, poète, aviateur et reporter français.",
     categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "C'est bizarre que nous, qui sommes capables de tant souffrir, puissions infliger aux gens tant de souffrances.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Y'a t'il une fin à la folie humaine ?",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Chacun de nous a son passé renfermé sur lui, comme les pages d'un vieux livre qu'il connaît par coeur, mais dont ses amis pourront seulement lire le titre.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Ce qui compte c'est de se libérer soi-même, découvrir ses propres dimensions, refuser les entraves.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Si je ne suis pas moi-même, je ne suis personne.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Laissez vivre votre âme, c'est la seule vie qui en somme soit pas un attrape-nigaud.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Chacun recèle en lui une forêt vierge, une étendue de neige où nul oiseau n'a laissé son empreinte.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Je veux la solitude pour y déposer en paix mes possessions.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Mieux vaut que certains secrets restent enfouis dans les profondeurs.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Pourquoi penser dans un monde où l'instant présent existe ?",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Mais qu'est-ce que \"soi-même\" ? L'Etre que l'on voit ou l'être que l'on est ?",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "J'ai voulu dilater la nuit, et y faire entrer sans cesse de plus en plus de rêves.",
+    auteur: "Virginia Woolf(1882-1941) est une femme de lettres anglaise.",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Ce que la voix peut cacher, le regard le livre.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Les petites choses n'ont l'air de rien, mais elles donnent la paix.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Un monde gagné pour la technique est perdu pour la liberté.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "L'avenir est quelque chose qui se surmonte. On ne subit pas l'avenir, on le faît.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "bonheur", "courage"],
+  },
+  {
+    texte: "Je meurs chaque nuit pour ressusciter chaque matin.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Si je recommençais ma vie, je tâcherais de faire mes rêves encore plus grands; parce que la vie est infiniment plus belle et plus grande que je n'avais cru, même en rêve.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Etre capable de trouver sa joie dans la joie de l'autre: voilà le secret du bonheur.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Qu'importe ma vie ! Je veux seulement qu'elle reste jusqu'au bout fidèle à l'enfant de je fus.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Le vide fascine ceux qui n'osent pas le regarder en face, ils s'y jettent par crainte d'y tomber.",
+    auteur: "Georges Bernanos(1888-1948) est un écrivain français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Celui-là seul est digne de la liberté, qui sait la conquérir.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Allons au fond de l'inconnu pour trouver du nouveau.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Plus un esprit est délicat, plus il découvre des beautés originales.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Ne méprisez la sensibilité de personne; la sensibilité de chacun, c'est son génie.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "L'amour est une rose dont chaque pétale est une illusion et chaque épine une réalité.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "L'air est plein de frisson des choses qui s'enfuient.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Ce qui est créé par l'esprit est plus vivant que la matière.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "Garde tes songes; les sages n'en ont pas d'aussi beaux que les fous !",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Entre bien dans mes yeux pour que je me souvienne de toi.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Les émotions les plus belles sont celles que tu ne sait pas expliquer.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Le génie n'est que l'enfance retrouvée à volonté.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Bien qu'on ait du coeur à l'ouvrage. L'Art est long et le temps est court.",
+    auteur: "Charles Beaudelaire(1821-1867) est un poète français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Si vous êtes prêts à sacrifier un peu de liberté pour vous sentir en sécurité, alors vous ne méritez ni l'un ni l'autre.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Je crois beaucoup en la chance; et je constate que plus je travaille, plus la chance me sourit.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Le prix de la liberté c'est la vigilance éternelle.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Aucun honnête homme ne peut éprouver du plaisir à éxercer un pouvoir sur ses concitoyens.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les loups et les moutons ne dorment pas ensemble.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Une petite rebellion de temps en temps, c'est comme un orage qui purifie l'atmosphère.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Dans la presse, seules les publicités disent la vérité.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "L'homme qui ne craint pas la vérité n'a rien à craindre du mensonge.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Un gouvernement assez fort pour vous donner tout ce que vous voulez l'est assez pour vous enlever tout ce que vous avez.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Un homme qui ne lit jamais est plus cultivé qu'un homme qui ne lit que les journaux.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le peuple est le seul sur lequel nous puissions compter pour préserver notre liberté.",
+    auteur: "Thomas Jefferson(1743-1826) est le trosième président des Etats-Unis.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Ne priez pas pour une vie facile. Priez pour avoir la force d'endurer la difficulté.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Vivre réellement est vivre pour les autres.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "bonheur", "morale"],
+  },
+  {
+    texte: "La clé de l'immortalité est d'abord de vivre une vie mémorable.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La connaissance donne le pouvoir, mais la force de caractère entraine le respect.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Celui qui veut réussir doit apprendre à combattre, persévérer et souffrir.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Adaptez ce qui est utile, rejetez ce qui est superficiel et ajoutez votre touche personnelle.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Connaître ne suffit pas. Il faut savoir appliquer. La volonté ne suffit pas. Il faut savoir agir.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La vie est vaste, illimitée. Elle n'a pas de bords, pas de frontières.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "courage", "reve"],
+  },
+  {
+    texte: "Un homme sage peut apprendre davantage d'une question stupide qu'un imbécile peut apprendre d'une réponse sage.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La possession de toute chose commence dans l'esprit.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Vide ta coupe afin qu'elle soit remplie. Démunis-toi afin de gagner la plénitude.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Les erreurs sont toujours pardonnables, si on a le courage de les admettre.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Au diable les circonstances ! Je créé des opportunités.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Un tempérament coléreux vous jouera des tours tôt ou tard.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Ne crains pas l'échec. Ce n'est pas l'échec, mais le manque d'ambition qui est un crime. Avec des objectifs élevés, l'échec peut-être glorieux.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Soyez toujours vous-même, exprimez-vous, ayez confiance en vous et ne cherchez pas à copier une personnalité qui a réussi.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Je ne crains pas un homme qui a pratiqué 10000 coups une fois, mais je crains l'homme qui a pratiqué un coup 10000 fois.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Un objectif n'est pas toujours destiné à être atteint, il sert souvent simplement comme quelque chose à viser.",
+    auteur: "Bruce Lee(1940-1973) est un acteur, réalisateur et spécialiste des arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Il ne faut pas écouter les bruits du monde, mais le silence de l'âme.",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Une seule langue, une seule monnaie et pas de religion, et on s'en portera tous mieux.",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Le grand combat, c'est contre soi-même. La victoire, c'est d'avoir compris ce que l'on veut... et d'y croire.",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Mon modèle, c'est moi-même! Je suis mon meilleur modèle parce que je connais mes erreurs, mes qualités, mes victoires et mes défaites. Si je passe mon temps à prendre un autre modèle comme modèle, comment veux-tu que ce modèle puisse modeler dans la bonne ligne ?",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Le talent, ça se travaille, mais ça ne se perd pas.",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le ridicule n'existe pas, on crée le ridicule.",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Il faut se battre pour essayer de ne pas répéter nos erreurs, elles sont faciles à retenir mais on les répète toujours.",
+    auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
+    categorie: ["tous", "courage"],
   },
 ];

@@ -252,7 +252,7 @@ footer{
   animation: animStar 8s forwards;
   filter: hue-rotate(0deg);
   z-index: 1;
-  box-shadow: 0px 0px 20px var(--color2);
+  box-shadow: 0px 0px 10px #fff;
 }
 
 @keyframes animStar{

@@ -66,8 +66,7 @@ let lectureCitations = () => {
     fond.src = "assets/Confucius.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Nietzsche")){
     fond.src = "assets/Friedrich_Nietzsche.jpg";
-  }else
-  if(choixUtilisateur[debutRandomCitation].auteur.includes("Gandhi")){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Gandhi")){
     fond.src = "assets/Gandhi.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Gibran")){
     fond.src = "assets/Kahlil_Gibran.jpg";
@@ -219,7 +218,7 @@ let lectureCitations = () => {
     fond.src = "assets/Seneque.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Frost")){
     fond.src = "assets/Robert_Frost.jpg";
-  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Char")){
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("René Char")){
     fond.src = "assets/Rene_Char.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Schopenhauer")){
     fond.src = "assets/Arthur_Schopenhauer.jpg";
@@ -243,6 +242,18 @@ let lectureCitations = () => {
     fond.src = "assets/Marcel_Proust.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Saint-Exupéry")){
     fond.src = "assets/antoine_de_saint_exupery.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Woolf")){
+    fond.src = "assets/Virginia_Woolf.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bernanos")){
+    fond.src = "assets/Georges_Bernanos.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Charles Beaudelaire")){
+    fond.src = "assets/Charles_Beaudelaire.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Jefferson")){
+    fond.src = "assets/Thomas_Jefferson.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bruce Lee")){
+    fond.src = "assets/Bruce_Lee.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Van Damme")){
+    fond.src = "assets/Jean-Claude_Van_Damme.jpg";
   }
 
   conteneurCitation.append(cite);
