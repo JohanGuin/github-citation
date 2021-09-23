@@ -841,6 +841,111 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "Je ne fais pas aux autres ce que je ne voudrais pas qu'ils me fassent.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Je n'ai pas encore rencontré d'homme capable d'avoir conscience de ses défauts et de ses errances.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Celui qui s'élève au-dessus de la médiocrité peut recevoir de grands enseignements. Celui qui préfère en rester là n'apprendra jamais rien.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La richesse des hommes acquise autrement que par la vertu ne sont que des nuages qui passent.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Certains agissent sans savoir pourquoi, ce n'est pas mon cas. J'écoute longtemps avant de choisir une route. J'observe les choses pour les garder en mémoire.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Intruisez-vous comme si la connaissance était sans limites, et ayez peur d'oublier ce que vous avez compris.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Comment connaître la mort quand on ne sait rien de la vie ?",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Quand un prince se conduit correctement, il peut gouverner efficacement sans donner d'ordres.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Celui qui promet trop a du mal à tenir sa parole.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Quand le royaume est gouverné en fonction de bons principes, le peuple ne discute pas.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Un mot suffit à faire d'un homme un sage ou un fou.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Qui ignore le pouvoir des mots ne connaît pas les hommes.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'homme de bien se doit d'obéir aux décrets du ciel.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Celui qui aime vraiment apprendre réfléchit tous les jours à ce qu'il n'a pas encore compris et se rappelle d'un mois à l'autre ce qu'on lui a enseigné.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Il est difficile de trouver un homme ayant étudié pendant 3 ans sans s'améliorer.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "J'entends et j'oublie. Je vois et je me souviens. Je fais et je comprends.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Toutes les choses ont leur beauté, mais tout le monde ne sait pas les voir.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Si tu sais que tu as fait une erreur et que tu ne la corrige pas, c'est là que tu commet véritablement une erreur.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Celui qui connaît toutes les réponses n'a pas posé toutes les questions.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Celui qui pose une question risque de passer pour un sot. Celui qui n'en pose pas est sûr de le rester.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Etudie le passé si tu veux connaître l'avenir.",
+    auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
     texte: "Choisis un travail que tu aimes et tu n'auras jamais à travailler un seul jour de ta vie.",
     auteur: "Confucius(551-479 avant notre ère) est un philosophe chinois. Il est à l'origine de la naissance du confucianisme.",
     categorie: ["tous", "sagesse", "reve"],
@@ -961,6 +1066,56 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "Personne ne peut bâtir à ta place le pont qu'il te faudra toi-même franchir sur le fleuve de la vie, personne hormis toi.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Il faut que tu veuilles brûler dans ta propre flamme: comment voudrais-tu redevenir neuf si tu n'es pas d'abord devenu cendre !",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Les autres sont essentiellement des miroirs de toi-même. Tu ne peux aimer ou détester quelque chose chez autrui que si ce quelque chose reflète une chose que tu aimes ou détestes en toi.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Celui qui lutte contre les monstres doit veiller à ne pas le devenir lui-même. Or, quand ton regard pénètre longtemps au fond d'un abîme, l'abîme, lui aussi, pénètre en toi.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Un penseur voit ses propres actions comme des expériences et ses questions comme des tentatives de trouver quelque chose. Le succès et l'échec sont pour lui des réponses avant tout.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'individu a toujours dû lutter pour ne pas être submergé par la tribu. Si vous essayez, vous serez souvent seul, et parfois vous aurez peur, mais aucun prix à payer n'est trop élevé pour avoir le privilège de posséder.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La manière la plus sûre de corromptre une jeunesse est de l'instruire à tenir dans une estime plus élevée ceux qui pensent de même que ceux qui pensent différemment.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "La maturité de l'homme, c'est d'avoir retrouvé le sérieux qu'on avait au jeu quand on était enfant.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Seules les pensées qu'on a en marchant valent quelque chose.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Parfois, les gens ne veulent pas entendre la vérité parce qu'ils ne veulent pas que leurs illusions se détruisent.",
+    auteur: "Friedrich Nietzsche(1844-1900) est un philosophe, poète et écrivain allemand qui a eu un grande influence sur l'histoire intellectuelle contemporaine.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
     texte: "Si chacun ne conservait que ce dont il a besoin, nul ne manquerait de rien, et chacun se contenterait de ce qu'il a.",
     auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
     categorie: ["tous", "sagesse", "morale"],
@@ -1064,6 +1219,21 @@ const citations = [
     texte: "Il est facile de se tenir avec la foule. Il faut du courage pour rester seul.",
     auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
     categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Ce qui me fait peur, ce n'est pas la méchanceté des méchants mais le silence des justes.",
+    auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Même si tu n'es qu'une minorité, la vérité reste toujours la vérité.",
+    auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Il n'est pas nécessaire d'éteindre la lumière de l'autre pour que brille la nôtre.",
+    auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
+    categorie: ["tous", "morale"],
   },
   {
     texte: "L'amour ignore sa profondeur jusqu'a l'heure de la séparation.",
@@ -3605,6 +3775,11 @@ const citations = [
     texte: "Personne n'est plus detesté que celui qui dit la vérité.",
     auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
     categorie: ["tous"],
+  },
+  {
+    texte: "La démocratie est la dictature de l'ignorance.",
+    auteur: "Platon(428-347 avant notre ère) est un philosophe de la Grèce classique.",
+    categorie: ["tous", "liberte"],
   },
   {
     texte: "L'amour est la seule fleur qui n'a pas besoin de saison pour éclore.",
