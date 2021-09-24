@@ -254,6 +254,12 @@ let lectureCitations = () => {
     fond.src = "assets/Bruce_Lee.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Van Damme")){
     fond.src = "assets/Jean-Claude_Van_Damme.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Tocqueville")){
+    fond.src = "assets/Alexis_de_Tocqueville.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Chomsky")){
+    fond.src = "assets/Noam_Chomsky.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bonaparte")){
+    fond.src = "assets/Napoleon_Bonaparte.jpg";
   }
 
   conteneurCitation.append(cite);

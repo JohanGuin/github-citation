@@ -671,6 +671,16 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "Les élections sont aristocratiques et non démocratiques : elles introduisent un élément de choix délibéré, de sélection des « meilleurs citoyens », au lieu du gouvernement par le peuple tout entier.",
+    auteur: "Aristote(384-322 avant notre ère) est un philosophe grec et l'un des penseurs les plus influents que le monde ait connu.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Une démocratie est un gouvernement dans les mains d'hommes de basse naissance, sans propriété, et d'emploi vulgaire.",
+    auteur: "Aristote(384-322 avant notre ère) est un philosophe grec et l'un des penseurs les plus influents que le monde ait connu.",
+    categorie: ["tous"],
+  },
+  {
     texte: "Aimes-tu la vie ? Alors ne gaspille pas ton temps, car il est l'essence de la vie.",
     auteur: "Benjamin Franklin(1706-1790) est un écrivain et un homme politique Américain. Il a participé à la rédaction de la déclaration d'indépendance des Etats-Unis.",
     categorie: ["tous", "bonheur", "courage", "sagesse"],
@@ -3022,6 +3032,11 @@ const citations = [
     categorie: ["tous", "reve"],
   },
   {
+    texte: "Quel est le meilleur gouvernement ? Celui qui nous apprend à nous gouverner nous-mêmes.",
+    auteur: "Johann Wolfgang von Goethe(1749-1832) est un romancier et un poète. Son oeuvre littéraire comprend de la poésie, du théâtre, de la théorie littéraire...",
+    categorie: ["tous"],
+  },
+  {
     texte: "Ne te laisse pas décourager par la vie; tous ceux qui se sont rendus où ils sont, ont dû partir d'où ils étaient.",
     auteur: "AL Evans(1916-1979) est un sportif de haut niveau qui était dans la Major League Baseball.",
     categorie: ["tous", "courage", "reve"],
@@ -3485,6 +3500,101 @@ const citations = [
     texte: "J'ai décidé d'être heureux parce que c'est bon pour la santé.",
     auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
     categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Il est dangereux d'avoir raison lorsque le gouvernement a tort.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Les Incas avaient des palais incrustés d'or et couverts de paille : emblème de bien des gouvernements.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "L'art de gouverner consiste à prendre le plus d'argent possible à une catégorie de citoyens afin de le donner à une autre.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Lorsqu'une question soulève des opinions violemment contradictoires, on peut assurer qu'elle appartient au domaine de la croyance et non à celui de la connaissance.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Les médecins administrent des médicaments dont ils savent très peu, à des malades dont ils savent moins, pour guérir des maladies dont ils ne savent rien.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Rien n'est plus dangereux que lorsque l'ignorance et l'intolérance sont armés de pouvoir.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "L'art de la médecine consiste à distraire le malade pendant que la nature le guérit.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Les Français ne sont pas faits pour la liberté : ils en abuseraient.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Qu'est-ce que la tolérance ? C'est l'apanage de l'humanité. Nous sommes tous pétris de faiblesses et d'erreurs ; pardonnons-nous réciproquement nos sottises, c'est la première loi de la nature.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Si l’homme est créé libre, il doit se gouverner - Si l’homme a des tyrans, il les doit détrôner.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Dire le secret d'autrui est une trahison, dire le sien est une sottise.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Si l'on n'est pas sensible, on n'est jamais sublime.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Quand on a tout perdu, quand on n'a plus d'espoir, la vie est un opprobre et la mort un devoir.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Ce qui touche le coeur se grave dans la mémoire.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Quand il s'agit d'argent, tout le monde est de la même religion.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Les vrais passions donnent des forces, en donnant du courage.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Il n'y a point de mal dont il ne naisse un bien.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse", "morale"],
+  },
+  {
+    texte: "Ne pas être occupé et ne pas exister c'est la même chose.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Les préjugés sont la raison des sots.",
+    auteur: "Voltaire(1694-1778) est un écrivain, philosophe et un homme d'affaires français. Il est le représentant le plus connu de la philosophie des lumières.",
+    categorie: ["tous", "sagesse", "morale"],
   },
   {
     texte: "Plus grand est l'obstacle, plus grande est la gloire de le surmonter.",
@@ -4955,5 +5065,165 @@ const citations = [
     texte: "Il faut se battre pour essayer de ne pas répéter nos erreurs, elles sont faciles à retenir mais on les répète toujours.",
     auteur: "Jean-Claude Van Damme est né en 1960 en Belgique. C'est un acteur, réalisateur et pratiquant d'arts martiaux.",
     categorie: ["tous", "courage"],
+  },
+  {
+    texte: "Je ne crains pas le suffrage universel, les gens voteront pour qui on leur dira.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Quand le passé n'éclaire plus l'avenir, l'esprit marche dans les ténèbres.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Les peuples démocratiques ont un goût naturel pour l'égalité. Ils la veulent dans la liberté et, s'ils ne peuvent l'obtenir, ils la veulent encore dans l'esclavage.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Les tyrans ne sont grands que parce que nous sommes à genoux.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "L'histoire est une galerie de tableaux où il y a peu d'originaux et beaucoup de copies.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Cet État se veut si bienveillant envers ses citoyens qu'il entend se substituer à eux dans l'organisation de leur propre vie. Ira-t-il jusqu'à les empêcher de vivre pour mieux les protéger d'eux-mêmes ? Le plus grand soin d'un bon gouvernement devrait être d'habituer peu à peu les peuples à se passer de lui.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "La concentration des pouvoirs et la servitude individuelle croîtront donc, chez les nations démocratiques, non seulement en proportion de l'égalité, mais en raison de l'ignorance.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "L'esclave est un serviteur qui ne discute point et se soumet à tout sans murmure. Quelquefois il assassine son maître mais il ne lui résiste jamais.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Le goût de la fonction publique et le désir de vivre de l'impôt est la grande et permanente infirmité de la France.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Qui cherche dans la liberté autre chose qu'elle-même est fait pour servir.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "liberte", "sagesse"],
+  },
+  {
+    texte: "Les grands hommes se passionnent pour les petites choses, quand les grandes viennent à leur manquer.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Cette même égalité qui rend l'individu indépendant de chacun de ses concitoyens en particulier le livre isolé et sans défense à l'action du plus grand nombre.",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Pourquoi la règle qui est applicable à un homme ne le serait-elle pas également à tous les autres ?",
+    auteur: "Alexis de Tocqueville(1805-1859) est un historien et écrivain français.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "La propagande est à la démocratie ce que la matraque est à la dictature.",
+    auteur: "Noam Chomsky est né en 1928. C'est un linguiste américain.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La véritable éducation consiste à pousser les gens à penser par eux-même.",
+    auteur: "Noam Chomsky est né en 1928. C'est un linguiste américain.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Toute l'histoire du contrôle sur le peuple se résume à cela : isoler les gens les uns des autres, parce que si on peut les maintenir isolés assez longtemps, on peut leur faire croire n'importe quoi.",
+    auteur: "Noam Chomsky est né en 1928. C'est un linguiste américain.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Si on ne crois pas à la liberté d'expression pour les gens qu'on méprise, on n'y crois pas du tout.",
+    auteur: "Noam Chomsky est né en 1928. C'est un linguiste américain.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Une belle femme plaît aux yeux, une bonne femme plaît au coeur ; l'une est un bijou, l'autre un trésor.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "sensibilite"],
+  },
+  {
+    texte: "Quand on veut on peut, quand on peut on doit.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "La mort n'est rien, mais vivre vaincu et sans gloire, c'est mourir tous les jours.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "N'interrompez jamais un ennemi qui est en train de faire une erreur.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "Quand la Chine s'éveillera, le monde tremblera.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le mensonge n'est bon à rien, puisqu'il ne trompe qu'une fois.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "sagesse"],
+  },
+  {
+    texte: "La bonne politique est de faire croire aux peuples qu'ils sont libres.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Lorsqu'un gouvernement est dépendant des banquiers pour l'argent, ce sont ces derniers, et non les dirigeants du gouvernement qui contrôlent la situation, puisque la main qui donne est au-dessus de la main qui reçoit. L'argent n'a pas de patrie ; les financiers n'ont pas de patriotisme et n'ont pas de décence ; leur unique objectif est le gain.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Dans les révolutions, il y a deux sortes de gens : ceux qui les font et ceux qui en profitent.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Si vous n'aimez pas les chiens, vous n'aimez pas la fidélité ; vous n'aimez pas qu'on vous soit fidèle, donc vous n'êtes pas fidèle.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "On ne conduit le peuple qu'en lui montrant un avenir : un chef est un marchand d'espérance.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Bien analysée, la liberté politique est une fable convenue, imaginée par les gouvernants pour endormir les gouvernés.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le doute est l'ennemi des grandes entreprises.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "L'histoire est une suite de mensonges sur lesquels on est d'accord.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Un homme combattra plus pour ses intérêts que pour ses droits.",
+    auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
+    categorie: ["tous", "morale"],
   },
 ];
