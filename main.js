@@ -260,6 +260,10 @@ let lectureCitations = () => {
     fond.src = "assets/Noam_Chomsky.jpg";
   }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Bonaparte")){
     fond.src = "assets/Napoleon_Bonaparte.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Sieyès")){
+    fond.src = "assets/Emmanuel-Joseph_Sieyes.jpg";
+  }else if(choixUtilisateur[debutRandomCitation].auteur.includes("Spinoza")){
+    fond.src = "assets/Spinoza.jpg";
   }
 
   conteneurCitation.append(cite);

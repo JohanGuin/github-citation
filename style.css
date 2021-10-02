@@ -160,6 +160,8 @@ input[type="text"]{
 #fond{
   grid-area: fd;
   width: 90%;
+  min-width: 110px;
+  max-width: 350px;
   height: 40vh;
   margin-top: 20px;
   margin-left: 50px;
@@ -304,7 +306,7 @@ footer{
     bottom: 50px;
   }
   #fond{
-    height: 20vh;
+    height: 18vh;
     position: relative;
     bottom: 50px;
     margin: 0;

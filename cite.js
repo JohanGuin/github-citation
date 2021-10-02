@@ -226,6 +226,11 @@ const citations = [
     categorie: ["tous", "sagesse"],
   },
   {
+    texte: "Le progrès technique est comme une hache qu’on aurait mise dans les mains d’un psychopathe.",
+    auteur: "Albert Einstein(1879-1955) est un physicien théoricien qui a découvert la théorie de la relativité restreinte en 1905 et celle de la gravitation en 1915.",
+    categorie: ["tous"],
+  },
+  {
     texte: "Les médias sont les entités les plus puissantes sur terre. Ils ont le pouvoir de rendre les innocents coupables et faire des coupables des innocents, et c'est ça le pouvoir. Parce qu’ils contrôlent l’esprit des masses.",
     auteur: "Malcolm X(1925-1965) est un militant politique et un défenseur des droits de l'homme qui a été assassiné le 21 février 1965 à Harlem.",
     categorie: ["tous", "liberte", "morale"],
@@ -1242,6 +1247,11 @@ const citations = [
   },
   {
     texte: "Il n'est pas nécessaire d'éteindre la lumière de l'autre pour que brille la nôtre.",
+    auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "La vrai démocratie ne viendra pas de la prise du pouvoir par quelques-uns mais du pouvoir que tous auront de s'opposer au pouvoir de quelques-uns.",
     auteur: "Gandhi(1869-1948) est un avocat qui resisté à l'oppression par la désobéissance civile de masse et a conduit l'Inde à l'indépendance.",
     categorie: ["tous", "morale"],
   },
@@ -2591,6 +2601,11 @@ const citations = [
     categorie: ["tous"],
   },
   {
+    texte: "Le meilleur argument contre la démocratie est un entretien de cinq minutes avec un électeur moyen.",
+    auteur: "Winston Churchill(1874-1965) est un homme politique et un écrivain britannique. Il est premier ministre du Royaume-Uni de mai 1940 à juillet 1945 puis d'octobre 1951 à avril 1955.",
+    categorie: ["tous"],
+  },
+  {
     texte: "Il n'existe pas d'occasion unique, le vie offre toujours une seconde chance.",
     auteur: "Paulo Coelho né en 1947 est un romancier et journaliste qui connait une renommée internationale depuis la publication de l'Alchimiste.",
     categorie: ["tous", "courage"],
@@ -3317,6 +3332,11 @@ const citations = [
     categorie: ["tous", "courage"],
   },
   {
+    texte: "La démocratie, ce n'est pas la loi de la majorité, mais la protection de la minorité.",
+    auteur: "Albert Camus(1913-1960) est un écrivain, philosophe et romancier. Il est aussi journaliste militant engagé dans la résistance française et reçoit le prix nobel de littérature en 1957.",
+    categorie: ["tous"],
+  },
+  {
     texte: "Renoncer à sa liberté c'est renoncer à sa qualité d'homme, aux droits de l'humanité, même à ses devoirs.",
     auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
     categorie: ["tous", "liberte"],
@@ -3370,6 +3390,46 @@ const citations = [
     texte: "J'étais fait pour vivre, et je meurs sans avoir vécu.",
     auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
     categorie: ["tous", "bonheur", "sensibilite"],
+  },
+  {
+    texte: "Il n'y a point de bonheur sans courage, ni de vertu sans combat.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous", "bonheur", "courage"],
+  },
+  {
+    texte: "Toute méchanceté vient de la faiblesse; l'enfant est méchant que parce qu'il est faible; rendez-le fort, il sera bon.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Savez-vous quel est le plus sûr moyen de rendre votre enfant misérable ? C'est de l'accoutumer à tout obtenir.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "L'astronomie est née de la superstition; l'éloquence de l'ambition, de la haine, de la flatterie, du mensonge; la géométrie de l'avarice; la physique d'une vaine curiosité; toutes et la morale même, de l'orgueil humain.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le monde de la réalité a ses limites; le monde de l'imagination est sans frontières.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous", "reve"],
+  },
+  {
+    texte: "La raison, le jugement, viennent lentement, les préjugés accourent en foule.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Il y a souvent plus de stupidité que de courage dans une constance apparente.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La liberté consiste moins à faire sa volonté qu'à ne pas être soumis à celle d'autrui.",
+    auteur: "Jean-Jacques Rousseau(1712-1778) est un écrivain, philosophe. Il a eu une influence considérable lors de la période révolutionnaire et à écrit le Contrat Social.",
+    categorie: ["tous", "liberte"],
   },
   {
     texte: "Si tu veux connaître le coeur d'une personne, observe comment elle se comporte avec les gens qui ne peuvent rien lui apporter.",
@@ -5225,5 +5285,105 @@ const citations = [
     texte: "Un homme combattra plus pour ses intérêts que pour ses droits.",
     auteur: "Napoléon Bonaparte(1769-1821) est un militaire et homme d'Etat français qui fut le premier empereur des français.",
     categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Les citoyens qui désignent des représentants renoncent et doivent renoncer à faire eux-mêmes la loi ; donc ils n'ont pas de volonté particulière à imposer. Toute influence, tout pouvoir leur appartient sur la personne de leur mandataire, mais c'est tout. S'ils dictaient des volontés ce ne serait plus un état représentatif, ce serait un état démocratique.",
+    auteur: "Emmanuel-Joseph Sieyès(1748-1836) est un homme d'église et un homme politique français.",
+    categorie: ["tous", "morale"],
+  },
+  {
+    texte: "Qu'est-ce que le Tiers Etat ? -Tout. - Qu'a-t'il été jusqu'a présent dans l'ordre politique ? - Rien. - Que demande-t'il ? - A être quelque chose.",
+    auteur: "Emmanuel-Joseph Sieyès(1748-1836) est un homme d'église et un homme politique français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Dans toute nation libre, et toute nation doit être libre, il n'y a qu'une manière de terminer les différends qui s'élèvent touchant la constitution. Ce n'est pas à des notables qu'il faut avoir recours, c'est à la nation elle-même.",
+    auteur: "Emmanuel-Joseph Sieyès(1748-1836) est un homme d'église et un homme politique français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Qu'est-ce qu'une nation ? Un corps d'associés vivant sous une loi commune et représentés par la même législature.",
+    auteur: "Emmanuel-Joseph Sieyès(1748-1836) est un homme d'église et un homme politique français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Autrefois, le tiers était serf, l'ordre noble était tout. Aujourd'hui le tiers est tout, la noblesse est un mot. Mais sous ce mot s'est glissée une nouvelle et intolérable aristocratie.",
+    auteur: "Emmanuel-Joseph Sieyès(1748-1836) est un homme d'église et un homme politique français.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La paix n'est pas l'absence de guerre, c'est une vertu, un état d'esprit, une volonté de bienveillance, de confiance, de justice.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Si vous voulez que la vie vous sourie, apportez-lui d'abord votre bonne humeur.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Les hommes sont conduits plutôt par le désir aveugle que par la raison.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Nous ne désirons aucune chose parce que nous la trouvons bonne mais, au contraire, nous jugeons qu'une chose est bonne parce que nous la désirons.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La satisfaction intérieure est en vérité ce que nous pouvons espérer de plus grand.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Le chat n'est pas tenu de vivre selon les lois du lion.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "Le désir qui naît de la joie est plus fort que le désir qui naît de la tristesse.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous", "bonheur"],
+  },
+  {
+    texte: "Les hommes se trompent quand ils se croient libres ; cette opinion consiste en cela seul qu'ils sont conscients de leurs actions et ignorants des causes par lesquelles ils sont déterminés.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "C'est aux esclaves, non aux hommes libres, que l'on fait un cadeau pour les récompenser de s'être bien conduits.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous", "liberte"],
+  },
+  {
+    texte: "On ne désire pas les choses parce qu'elles sont belles, mais c'est parce qu'on les désire qu'elles sont belles.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Il vaut mieux enseigner les vertus que condamner les vices.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Dans la mesure où une chose convient à notre nature, elle est nécessairement bonne.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "La peur ne peut se passer de l'espoir et l'espoir de la peur.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous", "courage"],
+  },
+  {
+    texte: "C'est un défaut commun aux hommes que de confier aux autres leurs desseins.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
+  },
+  {
+    texte: "Une bonne conscience ne nous excite pas à notre perte mais toujours à notre salut.",
+    auteur: "Baruch Spinoza(1632-1677) est un philosophe néerlandais.",
+    categorie: ["tous"],
   },
 ];
